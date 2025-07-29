@@ -1,11 +1,11 @@
-### Funzioni di deprezzamento da usare nell'analisi
+### Functions used to compute the extent to which landscape value decreases with the presence of wind or solar farms
 
 library(tidyverse)
 library(here)
 
-## Eolico
+## Wind farms
 
-# configurazioni eolico
+# Defining wind farm characteristics of the 3 alternatives considered
 
 eo_conf <- tibble(
   case = c("base", "alt1", "alt2"),
@@ -14,7 +14,8 @@ eo_conf <- tibble(
   mw = c(6.2, 2.2, 6.2) #potenza dei singoli aerogeneratori in MW
 )
 
-# distance
+# Depreciation due to distance from the wind farm
+
 distance_fn <- function(distance_m, max_distance = 29){
   
   distance <- distance_m / 1000
@@ -37,7 +38,7 @@ distance_fn <- function(distance_m, max_distance = 29){
   
 }
 
-# turbine number
+# Depreciation due to the turbine number
 
 turbine_fn <- function(turbine_n, mean_turbine_n = 20){
   
@@ -46,7 +47,7 @@ turbine_fn <- function(turbine_n, mean_turbine_n = 20){
   g
 }
 
-#Turbine height
+# Depreciation due to Turbine height
 
 height_fn <- function(t_height, min_h = 70, max_h = 200){
   
@@ -86,45 +87,17 @@ height_fn <- function(t_height, min_h = 70, max_h = 200){
   
 }
 
-### Fotovoltaico
+### Solar plants
 
-# metodo base
 
-depr_fv <- # funzione per il calcolo della deprezzamento del paesaggio causato dagli impianti FV 
+depr_fv_alt <- # function used to calculate to what extent landscape value decreases due to the presence of a PV plant
   function(
-    plant_area = 1162388.867, # m2
-    distance, # distanza in metri
-    visual_field = 3.66, # radianti
-    visible_vertices, # vertici visibili,
-    n_vertex = 6 # numero vertici impianto
-  ){
-    diameter <- 2 * (plant_area / pi)^0.5 # metri
-    
-    app_diameter <- 2 * atan((diameter/(2*distance)))
-    
-    app_d_ratio = app_diameter / visual_field * 100
-    
-    depr  <- if_else(
-      app_d_ratio <= 13.5,
-      -0.004 * app_d_ratio^2 + 0.128 * app_d_ratio,
-      1
-    ) * visible_vertices / n_vertex
-    
-    return(depr)
-  }
-
-# metodo alternativo
-
-
-
-depr_fv_alt <- # funzione per il calcolo della deprezzamento del paesaggio causato dagli impianti FV 
-  function(
-    plant_area = 1162388.867, # m2
-    distance, # distanza in metri
-    visual_field = 3.66, # radianti
-    visible_vertices, # vertici visibili,
-    n_vertex = 6, # numero vertici impianto
-    app_diameter,
+    plant_area = 1162388.867, # plant area in m2
+    distance, # distance of the observer from the plant (m)
+    visual_field = 3.66, # visual field in (rad)
+    visible_vertices, # Number of visible vertices
+    n_vertex = 6, # Number of vertices of the polygon approximating the plant
+    app_diameter, #apparent diameter of the circle circumscribed tothe plant polygon
     output = "depr"
   ){
 
