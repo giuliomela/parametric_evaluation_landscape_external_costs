@@ -11,10 +11,8 @@ pacman::p_load(
   networkD3,
   sf,
   edc,
-  excel.link,
   future,
-  future.apply,
-  data.table
+  future.apply
 )
 
 # Pland energy production
@@ -24,8 +22,6 @@ prod_fv <- 95.7 #GWh/year
 
 source( # loads 'depreciation' functions (make sure the file is stored in the same folder or adjust accordingly)
   here(
-    "script",
-    "paper_landscape_valuation",
     "depreciation_functions_24.R")
 )
 
@@ -33,8 +29,6 @@ source( # loads 'depreciation' functions (make sure the file is stored in the sa
 
 table_path <- 
   here( # change the path if needed
-    "script",
-    "paper_landscape_valuation",
     "corr_table_it_en.xlsx"
   )
 
@@ -68,8 +62,6 @@ paes_tipo_translation_vct <-
 
 wtp <- read_xlsx( # loading landscape values / WTP
   here(
-    "script",
-    "paper_landscape_valuation",
     "landscape_values_24.xlsx"),
   sheet = "valori_paesaggi_storici" # Sheet with landscape values taking into account the value of historical landscapes
 
@@ -82,8 +74,6 @@ wtp <- read_xlsx( # loading landscape values / WTP
 # Loading ISPRA map with landscape types
 
 shape.data_paes <- sf::st_read(here(
-  "script", 
-  "paper_landscape_valuation",
   "carta_paesaggio", 
   "CN250_UdP.shp"),
                                quiet = T) |> 
@@ -95,8 +85,6 @@ shape.data_paes <- sf::st_read(here(
 # Loading ISPRA 'Nature' map
 
 shape.data_cnat <- sf::st_read(here("script", 
-                                    "paper_landscape_valuation",
-                                    "carta_natura",
                                     "CartaNaturalisticoCulturale.shp"),
                                quiet = T) |> 
   mutate(
@@ -114,9 +102,7 @@ shape.data_cnat <- sf::st_read(here("script",
     
 # Loading kml file of historical rural landscapes
 
-kml_files <- list.files(path = here("script", 
-                                    "paper_landscape_valuation",
-                                    "traditional_landscapes", "kml"), pattern = "\\.kml$", full.names = TRUE)
+kml_files <- list.files(path = here("traditional_landscapes", "kml"), pattern = "\\.kml$", full.names = TRUE)
 
 sf_objects <- lapply(kml_files, function(file) {
   sf_obj <- st_read(file)
@@ -163,9 +149,7 @@ shape.data_cnat.paes <-
 
 visibility_data_fv <- 
   read_delim(
-    file = here::here("script", 
-                      "paper_landscape_valuation",
-                      "visibility_analysis", "fv_lato15km_100m.csv"),
+    file = here::here("visibility_analysis", "fv_lato15km_100m.csv"),
     delim = ","
   )
 
@@ -184,10 +168,10 @@ intersection_fv <- st_intersection(shape.data_cnat.paes, visibility_data_shape_f
 
 depr_fv <- 
   read_delim(
-    here("script", 
-         "paper_landscape_valuation",
+    here(
          "visibility_analysis",
-         "sens_analysis.csv"),
+         "sens_analysis.csv"
+         ),
     delim = ","
   )
 
@@ -293,8 +277,7 @@ depr_fv_detail <-
 
 visibility_data_eo <- 
   read_delim(
-    file = here::here("script", "paper_landscape_valuation", 
-                      "visibility_analysis", "eo_lato58km_100m.csv"),
+    file = here::here("visibility_analysis", "eo_lato58km_100m.csv"),
     delim = ","
   )
 

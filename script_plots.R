@@ -1,21 +1,17 @@
-### GRAFICI VALORE PAESAGGIO
+### PLOTS
 
-source(
+source( # replace with appropriate path
   here::here(
-    "script",
-    "script_paper_mar25_valore_paesaggio.R"
+    "script_results.R"
   )
 )
 
-# mappa del mondo come contorno
-
+# Loading world map (requires rnaturalearth package)
 
 shape.data_w <- rnaturalearth::ne_countries(scale = "large", returnclass = "sf") |> 
   st_transform(crs = 3035) # proiezione ETRS89 / ETRS-LAEA (EPSG:3035)
 
-# Mappa dei tipi di paesaggio
-
-# unisco le geometrie dei tipi di peaesaggio
+### Map of landscape types
 
 shape.data_paes_type <- shape.data_paes |> 
   group_by(TIPO_PAE) |>
@@ -23,9 +19,7 @@ shape.data_paes_type <- shape.data_paes |>
   ungroup() |> 
   st_transform(crs = 3035)
 
-### MAPPA TIPI PAESAGGIO
-
-# limiti della mappa in coorsinate
+# Setting map boundaries
 bbox_wgs84 <- st_bbox(c(
   xmin = 7,
   xmax = 18.5,
@@ -33,9 +27,9 @@ bbox_wgs84 <- st_bbox(c(
   ymax = 47
 ), crs = st_crs(4326))  # WGS84
 
-# Convertire il bounding box in EPSG:3035
+# Converting the bounding box in EPSG:3035
 bbox_3035 <- st_transform(st_as_sfc(bbox_wgs84), crs = 3035)
-bbox_coords <- st_bbox(bbox_3035)  # Ottieni i limiti in metri
+bbox_coords <- st_bbox(bbox_3035)  # boundaries in meters
 
 # Creating a base map
 
@@ -66,7 +60,7 @@ landscape_map <- sf::st_cast(shape.data_w, "MULTIPOLYGON") |>
         legend.key.size = unit(0.5, 'cm')) +
   labs(fill = "Landscape types")
 
-# Mappa dei paesaggi rurali tradizionali
+# Map of traditional rural landscapes
 
 shape.data_ita <- shape.data_w |> 
   filter(name_en == "Italy")
@@ -93,7 +87,7 @@ rural_map <-
         legend.key.size = unit(0.5, 'cm')) +
   labs(fill = "")
 
-# Mappa del valore culturale e naturale
+# Map of natural and cultural lanscape value
 
 shape.data_cnat <- 
   st_transform(shape.data_cnat, crs = 3035)
@@ -142,7 +136,7 @@ na_cu_map_25cat <-
         legend.key.size = unit(0.5, 'cm')) +
   labs(fill = "")
 
-# Mappa dei valori per ha
+# Map of landscape values
 
 landscape_value_map <- sf::st_cast(shape.data_w, "MULTIPOLYGON") |> 
   ggplot2::ggplot() +
@@ -165,12 +159,12 @@ landscape_value_map <- sf::st_cast(shape.data_w, "MULTIPOLYGON") |>
         legend.key.size = unit(0.5, 'cm')) +
   labs(fill = "WTP (euro/ha/year)")
 
-## Mappa potenziale eolico
+## Map of wind potential
 
-# Carico mappa potenziale eolico
+# Loading map of wind potential
 
 shape_eolico <- 
-  sf::st_read(here("data", "atlante_integrato", "potenziale_eolico", "Grid_nazionale_20240221.shp"),
+  sf::st_read(here("atlante_integrato", "potenziale_eolico", "Grid_nazionale_20240221.shp"),
               quiet = T)
 
 #st_crs(shape_eolico) <- st_crs(shape.data_cnat.paes) # Imposta lo stesso sistema di coordinate
@@ -185,7 +179,7 @@ shape.data_ita <-
 shape_eolico_onshore <- 
   st_intersection(shape_eolico, shape.data_ita)
 
-map_potenziale_eolico <- 
+map_wind_potential <- 
   sf::st_cast(shape.data_w, "MULTIPOLYGON") |> 
   ggplot2::ggplot() +
   ggplot2::geom_sf(fill = "grey") +
@@ -206,10 +200,10 @@ map_potenziale_eolico <-
         legend.key.size = unit(0.5, 'cm'))
 
 
-##GRAFICI risultati
+## Plots results (install package 'ggthemes')
 
-res_eo_plot <- 
-  results_eo |> 
+res_wind_plot <- 
+  results$eo |> 
   group_by(TIPO_PAE) |> 
   summarise(depr_value = sum(depr_value) / 1000) |> # risultati in migliaia di euro 
   ungroup() |> 
@@ -227,8 +221,8 @@ res_eo_plot <-
   theme(legend.position = "bottom", plot.background=element_blank(),
         legend.background = element_blank()) 
 
-res_fv_plot <- 
-  results_fv |> 
+res_pv_plot <- 
+  results$fv |> 
   group_by(TIPO_PAE) |> 
   summarise(depr_value = sum(depr_value) / 1000) |> # risultati in migliaia di euro 
   ungroup() |> 
@@ -247,7 +241,7 @@ res_fv_plot <-
         legend.background = element_blank())
 
 res_comparison_plot <- 
-  results_comp |> 
+  results$comparison |> 
   pivot_longer(
     !type,
     names_to = "var",
@@ -287,7 +281,7 @@ res_comparison_plot <-
         legend.background = element_blank()) 
 
 
-## Funzione deprezzamento distanza eolico
+## Wind distance depreciation function plot
 
 plot_depr_fun <- 
   ggplot() +
@@ -301,24 +295,23 @@ plot_depr_fun <-
   labs(y = "landscape value reduction",
        x = "Distance (km)")
 
-## Grafico visibilità
+## Visibility plot
 
-# Mappa diametro apparente (in rapporto al campo visivo)
+# Map of apparent diameter (install package ggspatial)
 
-# carico sagoma impianto
+# Loading PV plant shape
 
-area_poligono <- 
+polygon_area <- 
   st_read(
-    here("data", "visibility_analysis", "poligono_fv", "area_poligono.shp")
+    here("visibility_analysis", "poligono_fv", "area_poligono.shp")
   )
 
-# Creazione di una nuova variabile colore
 app_d_data$colore <- ifelse(app_d_data$app_d_ratio == 0, NA, app_d_data$app_d_ratio)
 
 plot_d_app <- 
   ggplot() +
   geom_sf(data = app_d_data, aes(fill = colore), color = NA, size = 0.1) +
-  geom_sf(data = area_poligono, color = "ivory", alpha = 0) +
+  geom_sf(data = polygon_area, color = "ivory", alpha = 0) +
   scale_fill_viridis(option = "rocket", direction = -1, na.value = "gray80",
                      name = "Share of the visual field\noccupied by the plant\n%") +
   theme_minimal() +
@@ -339,9 +332,9 @@ all_fig_en <-
     rural_map= rural_map,
     na_cu_map_25cat= na_cu_map_25cat,
     landscape_value_map = landscape_value_map,
-    map_potenziale_eolico = map_potenziale_eolico,
-    res_eo_plot = res_eo_plot,
-    res_fv_plot = res_fv_plot,
+    map_wind_potential = map_wind_potential,
+    res_wind_plot = res_wind_plot,
+    res_pv_plot = res_pv_plot,
     res_comparison_plot = res_comparison_plot,
     plot_depr_fun = plot_depr_fun,
     plot_d_app = plot_d_app
