@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Partecipanze centopievesi - Paesaggio rurale storico</name>
+    <description><![CDATA[Progetto della Rete Rurale Nazionale per la valorizzazione dei paesaggi rurali storici censiti nel "Catalogo nazionale dei paesaggi rurali storici" (Laterza, 2010). L’Italia offre un patrimonio incomparabile di paesaggi forgiati dall’ uomo nel corso dei secoli, che per caratteristiche ed elementi di significatività e storicità, rappresentano un obiettivo primario di tutela e conservazione. Il volume presenta il risultato di una ricerca promossa dal Ministero delle Politiche Agricole Alimentari, Forestali e del Turismo, in collaborazione con 14 università italiane e alcuni enti di ricerca internazionali.]]></description>
+    <Style id="icon-1587-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1587-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1587-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1587-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1587-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1608-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1608-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1703-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1703-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1703-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1703-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1703-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-1701-0-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1.701</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF0000-1701-0-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2.5515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-1701-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-1701-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-1701-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Descrizione del paesaggio</name>
+      <Placemark>
+        <name>Sei nel paesaggio rurale storico delle Partecipanze Centopievesi</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrSYdLMVHeYjOA_JO6A1q2ruRSgdOifct2kVLtV2ceSp8FzyM59WCsEKdTIJ5Qeuje-EoFfHUlV8cdUoeiZKkRiDQdsZgGsebZRJID3Z8MS4rwg1P5_8wpa2Ut7ppjytiibYT5hPRe7imcOZdk2ecucVxfCujNreVShWTFsBhZ5wZDrxrSe48KNxFMdWYOENjblSkKFa62rZg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il paesaggio delle Partecipanze riguarda gli insediamenti rurali e la suddivisione dei campi risultanti dalle bonifiche, rappresentativi di una delle ultime forme di proprietà collettiva, di origine medievale, ancora presenti in Italia. Si tratta di circa sei aree, situate tra le province di Modena, Bologna e Ferrara, tra le quali quelle di Cento e Pieve di Cento, estese per circa 2550 ettari, risultano per dimensioni e storia tra le più rappresentative. La significatività di questo paesaggio è legata alla persistenza storica di alcuni elementi legati alla divisione dei campi, agli insediamenti rurali di origine medievale e alla forma di proprietà, che rendono le Partecipanze ancora identificative del paesaggio storico della bassa Pianura Padana. Secondo regole ancora oggi immutate, il patrimonio fondiario collettivo viene periodicamente suddiviso, mediante sorteggio, tra i legittimi discendenti maschi delle antiche famiglie legate a questi territori, gli unici ad averne diritto. Tale ripartizione, che risale all’inizio del ‘300, è il risultato di una serie di concessioni enfiteutiche (forma di contratto) di vasti terreni, in parte paludosi e in parte boscati, ceduti in affitto dal vescovo di Bologna alle due comunità allora ancora unite in un’unica amministrazione. Alcune delle caratteristiche principali delle Partecipanze agrarie sono rimaste pressoché immutate nei secoli, mantenendo un significato rilevante per l’economia agricola e per il contesto sociale. Rappresentano oggi una delle ultime forme di cooperazione e solidarietà fra gruppi sociali legata alla lavorazione della terra. La vulnerabilità dell’area è legata alle trasformazioni colturali che possono portare alla cancellazione dei «morelli» e delle cavedagne di accesso, che, con la loro regolare disposizione sul terreno, mantengono gli essenziali caratteri distintivi del paesaggio storico. <br>Foto: https://bit.ly/2SJJKre]]></description>
+        <styleUrl>#poly-FF0000-1701-0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrSYdLMVHeYjOA_JO6A1q2ruRSgdOifct2kVLtV2ceSp8FzyM59WCsEKdTIJ5Qeuje-EoFfHUlV8cdUoeiZKkRiDQdsZgGsebZRJID3Z8MS4rwg1P5_8wpa2Ut7ppjytiibYT5hPRe7imcOZdk2ecucVxfCujNreVShWTFsBhZ5wZDrxrSe48KNxFMdWYOENjblSkKFa62rZg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                11.2485333,44.7612142,0
+                11.2487063,44.7611482,0
+                11.2540846,44.7595912,0
+                11.2668522,44.7557972,0
+                11.2760396,44.7531082,0
+                11.2761956,44.7533352,0
+                11.2763516,44.7535822,0
+                11.2764477,44.7537892,0
+                11.2766907,44.7540142,0
+                11.2767537,44.7540602,0
+                11.2769577,44.7542692,0
+                11.2775297,44.7547852,0
+                11.2780907,44.7553342,0
+                11.2781867,44.7554302,0
+                11.2785238,44.7558792,0
+                11.2788018,44.7562492,0
+                11.2792738,44.7570752,0
+                11.2797108,44.7577562,0
+                11.2807039,44.7591362,0
+                11.2814349,44.7600662,0
+                11.2818959,44.7607302,0
+                11.2820559,44.7609032,0
+                11.2821519,44.7609592,0
+                11.282717,44.7612912,0
+                11.2851261,44.7631172,0
+                11.2878312,44.7651672,0
+                11.2892533,44.7662302,0
+                11.2893373,44.7662872,0
+                11.2893553,44.7663172,0
+                11.2895663,44.7664592,0
+                11.2901323,44.7668762,0
+                11.2907074,44.7674132,0
+                11.2910714,44.7677932,0
+                11.2914974,44.7681652,0
+                11.2923184,44.7686892,0
+                11.2930635,44.7692192,0
+                11.2943185,44.7702072,0
+                11.2956486,44.7711382,0
+                11.2967106,44.7719032,0
+                11.2976307,44.7725862,0
+                11.2982237,44.7730422,0
+                11.2985827,44.7732842,0
+                11.2988498,44.7734282,0
+                11.2991748,44.7735972,0
+                11.2994988,44.7737442,0
+                11.2999888,44.7739392,0
+                11.3005418,44.7741622,0
+                11.3009169,44.7742862,0
+                11.3014979,44.7744572,0
+                11.3021939,44.7746482,0
+                11.303174,44.7748952,0
+                11.3056201,44.7754962,0
+                11.3059321,44.7755852,0
+                11.3061081,44.7756402,0
+                11.3062761,44.7757102,0
+                11.3073372,44.7762042,0
+                11.3089582,44.7769392,0
+                11.3092833,44.7771082,0
+                11.3094733,44.7772582,0
+                11.3098043,44.7775802,0
+                11.3101363,44.7779242,0
+                11.3104003,44.7783582,0
+                11.3107613,44.7791772,0
+                11.3109633,44.7795972,0
+                11.3109853,44.7796472,0
+                11.3110073,44.7796842,0
+                11.3109883,44.7797132,0
+                11.3109623,44.7797452,0
+                11.3109483,44.7797512,0
+                11.3107873,44.7798202,0
+                11.3080752,44.7806972,0
+                11.303884,44.7820502,0
+                11.2998248,44.7833792,0
+                11.2948166,44.7850012,0
+                11.2935825,44.7854032,0
+                11.2933365,44.7854582,0
+                11.2932105,44.7855192,0
+                11.2948946,44.7880122,0
+                11.2964396,44.7903782,0
+                11.2972777,44.7916762,0
+                11.2972947,44.7917382,0
+                11.2972827,44.7917992,0
+                11.2972427,44.7918602,0
+                11.2971597,44.7919122,0
+                11.2954626,44.7924452,0
+                11.2939955,44.7929072,0
+                11.2880442,44.7947792,0
+                11.2849711,44.7957372,0
+                11.2848311,44.7957702,0
+                11.2847481,44.7957612,0
+                11.283652,44.7947372,0
+                11.2783197,44.7896642,0
+                11.2783107,44.7896662,0
+                11.2766757,44.7881582,0
+                11.2737065,44.7853972,0
+                11.2733765,44.7850612,0
+                11.2712804,44.7830582,0
+                11.2687003,44.7806032,0
+                11.2661091,44.7781832,0
+                11.26359,44.7757942,0
+                11.2612049,44.7735192,0
+                11.2602769,44.7726092,0
+                11.2588358,44.7712002,0
+                11.2586798,44.7710622,0
+                11.2542026,44.7667642,0
+                11.2505464,44.7632222,0
+                11.2485333,44.7612142,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Usi del suolo tradizionali</name>
+      <Placemark>
+        <name>Morello</name>
+        <description>Unità colturale destinata alle colture erbacee</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.2744848,44.7761013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cavalletto</name>
+        <description>Unità colturale destinata alle colture arboree.(Il cavalletto propriamente detto, occupato dal        filare delle viti maritate all’olmo).</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.2703984,44.7709792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cavedagne</name>
+        <description>Le unità colturali erano delimitate lungo i loro lati maggiori da scoline fisse e, lungo le testate, da strade campestri (cavedagne). </description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.2737113,44.7779851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sistemazioni idraulico agrarie</name>
+      <Placemark>
+        <name>Antica suddivisione delle Partecipanze</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrYbNPGYaY2WotxWm0mX8P5i9w2Aiac0fSiGN4cTMFXt1bDb_NMGKIZDEs1nTnZsNCL0_i2xMpTy4wgfSu6oEJVrhfINMGwKrJbuVqMBjyABFgdLQtDVig9NEzC9TabSWJSLX5uG9KlmI48zsp4r6R2PqwLyaoEhEFxCfAg3-_ymfszp1RdXbHCTJdGKQMMfCKz0xJ9hyb57g?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Antica mappa del 1693: “Disegno del castello e territorio di Sant’Agata con la pianta reale di tutti i beni communi de’ Partecipanti di detto luogo, loro sito e misure.<br>Foto: Partecipanza.org https://bit.ly/2DRhbOa<br><br>IMPORTANTE: La localizzazione dell’icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1703-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrYbNPGYaY2WotxWm0mX8P5i9w2Aiac0fSiGN4cTMFXt1bDb_NMGKIZDEs1nTnZsNCL0_i2xMpTy4wgfSu6oEJVrhfINMGwKrJbuVqMBjyABFgdLQtDVig9NEzC9TabSWJSLX5uG9KlmI48zsp4r6R2PqwLyaoEhEFxCfAg3-_ymfszp1RdXbHCTJdGKQMMfCKz0xJ9hyb57g?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.2679957,44.7728671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cavedagna </name>
+        <description><![CDATA[Locuzione settentrionale di capezzagna. Ciascuna delle due strisce di terreno sulle testate opposte di un campo rettangolare, perpendicolari alla direzione del solco dell'aratura. ]]></description>
+        <styleUrl>#icon-1703-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            11.2800041,44.784597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Edifici rurali storici</name>
+    </Folder>
+    <Folder>
+      <name>Produzioni tipiche locali</name>
+    </Folder>
+    <Folder>
+      <name>Aspetti geomorfologici</name>
+      <Placemark>
+        <name>Aspetti geoomorfologici</name>
+        <description><![CDATA[L’area è formata da depositi deltizi delle piane alluvionali.<br>Un delta fluviale, o semplicemente delta, è un accumulo di sedimenti che si forma in un'area di foce dove un corso d'acqua convoglia sedimenti terrigeni in un bacino con una massa d'acqua relativamente stazionaria.<br><br>IMPORTANTE: La localizzazione dell’icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1720-097138</styleUrl>
+        <Point>
+          <coordinates>
+            11.2796687,44.769333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Link utili</name>
+      <Placemark>
+        <name>Link utili</name>
+        <description><![CDATA[Partecipanza Agraria Pieve di Cento: http://www.partecipanzapieve.it/<br><br>Partecipanza Agraria di Cento: http://www.partecipanzacento.it/territorio.php<br><br>Ottocento ferrarese: https://bit.ly/2V5sd9A<br><br>Città metropolitana di Bologna: https://bit.ly/2DV47rk<br><br>Consorzio Partecipanti S. Giovanni in Persiceto: https://bit.ly/2V79EBX<br><br>IMPORTANTE: La localizzazione dell’icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1608-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            11.2694978,44.7611735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

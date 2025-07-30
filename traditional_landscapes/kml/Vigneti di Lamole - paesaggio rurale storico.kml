@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vigneti di Lamole - paesaggio rurale storico</name>
+    <description><![CDATA[Progetto della Rete Rurale Nazionale per la valorizzazione dei paesaggi rurali storici censiti nel "Catalogo nazionale dei paesaggi rurali storici" (Laterza, 2010). L’Italia offre un patrimonio incomparabile di paesaggi forgiati dall’uomo nel corso dei secoli, che per caratteristiche ed elementi di significatività e storicità, rappresentano un obiettivo primario di tutela e conservazione. Il volume presenta il risultato di una ricerca promossa dal Ministero delle Politiche Agricole Alimentari, Forestali e del Turismo, in collaborazione con 14 università italiane e alcuni enti di ricerca internazionali.]]></description>
+    <Style id="icon-1502-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1523-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1523-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1523-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1548-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1548-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1548-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1548-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1548-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1587-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1587-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1587-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1587-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1587-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1608-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1608-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1703-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1703-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1703-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1703-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1703-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1798-673AB7-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1798-673AB7-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1798-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1798-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1798-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-1901-0-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1.901</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF0000-1901-0-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2.8515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-1901-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-1901-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-1901-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Descrizione del paesaggio</name>
+      <Placemark>
+        <name>Sei nel paesaggio rurale storico dei vigneti di Lamole</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrNPN7OtHqGFgNpcKDHwduziFgpj6JKzEA-Ob83iBAu55x1-p3QYFVHOAfpPefFZR3jkLuy3Uc5tnYhfU8pnjJLA8q8xZPGiDQtxY6HxO0FfcbRw5jNC6PNkAam81yu9z5UKRdLyR7XOlIzZdj_BtTTg2o5e2NGF02ORjnDcom74VLaUSZv-3t2Pz9YY3jhcFd56Jadihzlf4gCM86AF_wIoWfQ1aDvUNtTz6knu2l7sDTl8d4RPaiCNoo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>descrizione: Una piccola frazione del comune di Greve in Chianti, il cui nome sembra risalire alla parola latina lamulae, cioè piccole lame, lingue di terra. Quest’area ospita circa 700 ettari di vigneti terrazzati rinomati già dal Medioevo. Il territorio è infatti caratterizzato da pendenze mediamente superiori al 30%, in cui la realizzazione dei terrazzamenti consentiva di «rimettere in piano» il terreno, rendendolo coltivabile. I muretti che limitano a valle i terrazzamenti erano peraltro importanti anche per la maturazione dell’uva, dal momento che cedevano nella notte ai grappoli delle viti il calore accumulato durante il giorno. L’esodo dalle campagne degli anni Cinquanta e Sessanta ridusse in pochi anni la popolazione di Lamole da 900 a 70 persone. Nei primi anni Settanta si pose mano alla ricostruzione dei vigneti privilegiando la piantagione a rittochino, ossia che segue la linea di massima pendenza del versante, rispetto a quella a girapoggio, che segue le curve di livello, nei terreni più pianeggianti; mentre i vecchi vigneti sui terrazzi meno accessibili vennero abbandonati di anno in anno. Dai primi anni 2000 l’area è invece oggetto di un ripensamento complessivo sul modo di fare viticoltura, che ha portato al recupero integrale di molti terrazzamenti e della vite ad alberello.<br>(foto: M. Venturi)<br><br>Area ha: 701.20]]></description>
+        <styleUrl>#poly-FF0000-1901-0</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Una piccola frazione del comune di Greve in Chianti, il cui nome sembra risalire alla parola latina lamulae, cioè piccole lame, lingue di terra. Quest’area ospita circa 700 ettari di vigneti terrazzati rinomati già dal Medioevo. Il territorio è infatti caratterizzato da pendenze mediamente superiori al 30%, in cui la realizzazione dei terrazzamenti consentiva di «rimettere in piano» il terreno, rendendolo coltivabile. I muretti che limitano a valle i terrazzamenti erano peraltro importanti anche per la maturazione dell’uva, dal momento che cedevano nella notte ai grappoli delle viti il calore accumulato durante il giorno. L’esodo dalle campagne degli anni Cinquanta e Sessanta ridusse in pochi anni la popolazione di Lamole da 900 a 70 persone. Nei primi anni Settanta si pose mano alla ricostruzione dei vigneti privilegiando la piantagione a rittochino, ossia che segue la linea di massima pendenza del versante, rispetto a quella a girapoggio, che segue le curve di livello, nei terreni più pianeggianti; mentre i vecchi vigneti sui terrazzi meno accessibili vennero abbandonati di anno in anno. Dai primi anni 2000 l’area è invece oggetto di un ripensamento complessivo sul modo di fare viticoltura, che ha portato al recupero integrale di molti terrazzamenti e della vite ad alberello.
+(foto: M. Venturi)
+</value>
+          </Data>
+          <Data name="Area ha">
+            <value>701.20</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrNPN7OtHqGFgNpcKDHwduziFgpj6JKzEA-Ob83iBAu55x1-p3QYFVHOAfpPefFZR3jkLuy3Uc5tnYhfU8pnjJLA8q8xZPGiDQtxY6HxO0FfcbRw5jNC6PNkAam81yu9z5UKRdLyR7XOlIzZdj_BtTTg2o5e2NGF02ORjnDcom74VLaUSZv-3t2Pz9YY3jhcFd56Jadihzlf4gCM86AF_wIoWfQ1aDvUNtTz6knu2l7sDTl8d4RPaiCNoo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                11.3499866,43.5673103,0
+                11.3493728,43.5667303,0
+                11.3492457,43.5666023,0
+                11.3490808,43.5664363,0
+                11.3490158,43.5663703,0
+                11.3489878,43.5663363,0
+                11.3489648,43.5663093,0
+                11.3485428,43.5657973,0
+                11.3485258,43.5657903,0
+                11.3473978,43.5653033,0
+                11.3465697,43.5649453,0
+                11.3460455,43.5647193,0
+                11.3458387,43.5645373,0
+                11.3457937,43.5644983,0
+                11.3455867,43.5643163,0
+                11.3447497,43.5635813,0
+                11.3446358,43.5634503,0
+                11.3445588,43.5633613,0
+                11.3444076,43.5631873,0
+                11.3441788,43.5629243,0
+                11.3437537,43.5624353,0
+                11.3428226,43.5616903,0
+                11.3428836,43.5615153,0
+                11.3429317,43.5613803,0
+                11.3430566,43.5610243,0
+                11.3430876,43.5609353,0
+                11.3432737,43.5604053,0
+                11.3431146,43.5599093,0
+                11.3429297,43.5593363,0
+                11.3427616,43.5588133,0
+                11.3419017,43.5578263,0
+                11.3416087,43.5574893,0
+                11.3416127,43.5573113,0
+                11.3416278,43.5567743,0
+                11.3416288,43.5567243,0
+                11.3411287,43.5562613,0
+                11.3405897,43.5557623,0
+                11.3404637,43.5557033,0
+                11.3400788,43.5555263,0
+                11.3400778,43.5555223,0
+                11.3400076,43.5554903,0
+                11.3400076,43.5554933,0
+                11.3396136,43.5553113,0
+                11.3396136,43.5553093,0
+                11.3395386,43.5552753,0
+                11.3395386,43.5552773,0
+                11.3389396,43.5550003,0
+                11.3387446,43.5549103,0
+                11.3387366,43.5549063,0
+                11.3385497,43.5548203,0
+                11.3382327,43.5543193,0
+                11.3374357,43.5530613,0
+                11.3374767,43.5530203,0
+                11.3375028,43.5529953,0
+                11.3380767,43.5524253,0
+                11.3382217,43.5522823,0
+                11.3390366,43.5514743,0
+                11.3392956,43.5512753,0
+                11.3406506,43.5502323,0
+                11.3406536,43.5502273,0
+                11.3406637,43.5502103,0
+                11.3410678,43.5495793,0
+                11.3417098,43.5485763,0
+                11.3418817,43.5483073,0
+                11.3424246,43.5476573,0
+                11.3425756,43.5474763,0
+                11.3427176,43.5473073,0
+                11.3431296,43.5468143,0
+                11.3438858,43.5461593,0
+                11.3440477,43.5460183,0
+                11.3443446,43.5459583,0
+                11.3445188,43.5459223,0
+                11.3455197,43.5460573,0
+                11.3461895,43.5461473,0
+                11.3469906,43.5463013,0
+                11.3470176,43.5461873,0
+                11.3467907,43.5455993,0
+                11.3467657,43.5455343,0
+                11.3467457,43.5454813,0
+                11.3467277,43.5454353,0
+                11.3465137,43.5448803,0
+                11.3464857,43.5441403,0
+                11.3465457,43.5437553,0
+                11.3465547,43.5436963,0
+                11.3465757,43.5435623,0
+                11.3467407,43.5430933,0
+                11.3467797,43.5429823,0
+                11.3468847,43.5428193,0
+                11.3473136,43.5421483,0
+                11.3473988,43.5420493,0
+                11.3475148,43.5419143,0
+                11.3476878,43.5417143,0
+                11.3479627,43.5413943,0
+                11.3482697,43.5410553,0
+                11.3484808,43.5408223,0
+                11.3487228,43.5405553,0
+                11.3494877,43.5398813,0
+                11.3498117,43.5394633,0
+                11.3499196,43.5379333,0
+                11.3499236,43.5378743,0
+                11.3499576,43.5374023,0
+                11.3497537,43.5367963,0
+                11.3497317,43.5367283,0
+                11.3497207,43.5366963,0
+                11.3497207,43.5366953,0
+                11.3497137,43.5366743,0
+                11.3496917,43.5366093,0
+                11.3496867,43.5365963,0
+                11.3495887,43.5363033,0
+                11.3495787,43.5362753,0
+                11.3495736,43.5362583,0
+                11.3491998,43.5350713,0
+                11.3491928,43.5350513,0
+                11.3491868,43.5350313,0
+                11.3491858,43.5350173,0
+                11.3491708,43.5346153,0
+                11.3491698,43.5345923,0
+                11.3491598,43.5343403,0
+                11.3491388,43.5337983,0
+                11.3493798,43.5332163,0
+                11.3495526,43.5328023,0
+                11.3499046,43.5326173,0
+                11.3501986,43.5324623,0
+                11.3515408,43.5317573,0
+                11.3515518,43.5317513,0
+                11.3523238,43.5313453,0
+                11.3523378,43.5313413,0
+                11.3523758,43.5313293,0
+                11.3524639,43.5313023,0
+                11.3524808,43.5312973,0
+                11.3524988,43.5312913,0
+                11.3525098,43.5312883,0
+                11.3526998,43.5312293,0
+                11.3528458,43.5311843,0
+                11.3529438,43.5311543,0
+                11.3534467,43.5309993,0
+                11.3534487,43.5309983,0
+                11.3534507,43.5309983,0
+                11.3548948,43.5305523,0
+                11.3551078,43.5304553,0
+                11.3554627,43.5302953,0
+                11.3555317,43.5302643,0
+                11.3556359,43.5302173,0
+                11.3556369,43.5302163,0
+                11.3556739,43.5301993,0
+                11.3558578,43.5301163,0
+                11.3560029,43.5300503,0
+                11.3562288,43.5299483,0
+                11.3562258,43.5298663,0
+                11.3564548,43.5296673,0
+                11.3565068,43.5296223,0
+                11.3565868,43.5295533,0
+                11.3567827,43.5293833,0
+                11.3568417,43.5293323,0
+                11.3569608,43.5292293,0
+                11.3570637,43.5291393,0
+                11.3571007,43.5291073,0
+                11.3571117,43.5291053,0
+                11.3588908,43.5288083,0
+                11.3591366,43.5290643,0
+                11.3590936,43.5297433,0
+                11.3591807,43.5301933,0
+                11.3589308,43.5308513,0
+                11.3590477,43.5312613,0
+                11.3592898,43.5320993,0
+                11.3596457,43.5323933,0
+                11.3597017,43.5324473,0
+                11.3597157,43.5324613,0
+                11.3597908,43.5325343,0
+                11.3598128,43.5325563,0
+                11.3598528,43.5325953,0
+                11.3601488,43.5328853,0
+                11.3607166,43.5333003,0
+                11.3610395,43.5336193,0
+                11.3610726,43.5336903,0
+                11.3613406,43.5342663,0
+                11.3613977,43.5348423,0
+                11.3614907,43.5350483,0
+                11.3617007,43.5355143,0
+                11.3617467,43.5355413,0
+                11.3622287,43.5358283,0
+                11.3622307,43.5358293,0
+                11.3622477,43.5358443,0
+                11.3627448,43.5362583,0
+                11.3632287,43.5366623,0
+                11.3635917,43.5371073,0
+                11.3637778,43.5376543,0
+                11.3637867,43.5376803,0
+                11.3639267,43.5377573,0
+                11.3648446,43.5382613,0
+                11.3648967,43.5382863,0
+                11.3655837,43.5386223,0
+                11.3659948,43.5394423,0
+                11.3658438,43.5399723,0
+                11.3654137,43.5404583,0
+                11.3652177,43.5407383,0
+                11.3651277,43.5410923,0
+                11.3649367,43.5414973,0
+                11.3648867,43.5417483,0
+                11.3648716,43.5418263,0
+                11.3648596,43.5418863,0
+                11.3648216,43.5420773,0
+                11.3648436,43.5421893,0
+                11.3648676,43.5423093,0
+                11.3649067,43.5425023,0
+                11.3652547,43.5425703,0
+                11.3661217,43.5426783,0
+                11.3672668,43.5428303,0
+                11.3677207,43.5429843,0
+                11.3678267,43.5430193,0
+                11.3679837,43.5432143,0
+                11.3681967,43.5434773,0
+                11.3683966,43.5437243,0
+                11.3685117,43.5438663,0
+                11.3685797,43.5439503,0
+                11.3688057,43.5442293,0
+                11.3688887,43.5445793,0
+                11.3688887,43.5445873,0
+                11.3688907,43.5446043,0
+                11.3688947,43.5446423,0
+                11.3689467,43.5451803,0
+                11.3689577,43.5454563,0
+                11.3686957,43.5458383,0
+                11.3683336,43.5461393,0
+                11.3687877,43.5473693,0
+                11.3687917,43.5473793,0
+                11.3689377,43.5478833,0
+                11.3689807,43.5480303,0
+                11.3689757,43.5480923,0
+                11.3689267,43.5487453,0
+                11.3689327,43.5489113,0
+                11.3689377,43.5490213,0
+                11.3689497,43.5493403,0
+                11.3690647,43.5501703,0
+                11.3693878,43.5509763,0
+                11.3695897,43.5514823,0
+                11.3695957,43.5514953,0
+                11.3696087,43.5515283,0
+                11.3707857,43.5523373,0
+                11.3710626,43.5524993,0
+                11.3711186,43.5525323,0
+                11.3712246,43.5525953,0
+                11.3719587,43.5530263,0
+                11.3722607,43.5532343,0
+                11.3733877,43.5540083,0
+                11.3740236,43.5542913,0
+                11.3740517,43.5543033,0
+                11.3750536,43.5547473,0
+                11.3754517,43.5549203,0
+                11.3760055,43.5551613,0
+                11.3759775,43.5551653,0
+                11.3759385,43.5551703,0
+                11.3762095,43.5560283,0
+                11.3760706,43.5563733,0
+                11.3757135,43.5572603,0
+                11.3756814,43.5573393,0
+                11.3756435,43.5574333,0
+                11.3750356,43.5589413,0
+                11.3749116,43.5592493,0
+                11.3743667,43.5595233,0
+                11.3731317,43.5601443,0
+                11.3725837,43.5604203,0
+                11.3706697,43.5601343,0
+                11.3703807,43.5600913,0
+                11.3694388,43.5599513,0
+                11.3684006,43.5597963,0
+                11.3675737,43.5596723,0
+                11.3669798,43.5596853,0
+                11.3631628,43.5597643,0
+                11.3631308,43.5597663,0
+                11.3620948,43.5598273,0
+                11.3618197,43.5598433,0
+                11.3614887,43.5598633,0
+                11.3614867,43.5598633,0
+                11.3614797,43.5598633,0
+                11.3607006,43.5603023,0
+                11.3595718,43.5610373,0
+                11.3594307,43.5611293,0
+                11.3593877,43.5612253,0
+                11.3592907,43.5614423,0
+                11.3590926,43.5618853,0
+                11.3589697,43.5621593,0
+                11.3589847,43.5625453,0
+                11.3589987,43.5628873,0
+                11.3589797,43.5636883,0
+                11.3583186,43.5647223,0
+                11.3582347,43.5648533,0
+                11.3579857,43.5652433,0
+                11.3577996,43.5655343,0
+                11.3578006,43.5655703,0
+                11.3578256,43.5656623,0
+                11.3580346,43.5664393,0
+                11.3581096,43.5667163,0
+                11.3581516,43.5668743,0
+                11.3581676,43.5669273,0
+                11.3582037,43.5670473,0
+                11.3582247,43.5671203,0
+                11.3582447,43.5671883,0
+                11.3583536,43.5675583,0
+                11.3583676,43.5676043,0
+                11.3584407,43.5678523,0
+                11.3580696,43.5686243,0
+                11.3572107,43.5689063,0
+                11.3571237,43.5689343,0
+                11.3569618,43.5689873,0
+                11.3568827,43.5690133,0
+                11.3550169,43.5686873,0
+                11.3543708,43.5685503,0
+                11.3543087,43.5685373,0
+                11.3542357,43.5685213,0
+                11.3540548,43.5684833,0
+                11.3535466,43.5683753,0
+                11.3532997,43.5683223,0
+                11.3520278,43.5681243,0
+                11.3518488,43.5680963,0
+                11.3518287,43.5680933,0
+                11.3518147,43.5680913,0
+                11.3512328,43.5680003,0
+                11.3506157,43.5676583,0
+                11.3501017,43.5673733,0
+                11.3499866,43.5673103,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Usi del suolo tradizionali</name>
+      <Placemark>
+        <name>Oliveto a sesto irregolare</name>
+        <description>Nella coltivazione a sesto d’impianto irregolare le piante sono collocate a distanze non omogenee sia nella fila sia sul filare.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3644979,43.5515845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto terrazzato
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZko4YkN_kA0KVwTt-OfLtPLlZf9t2CXqfDYsA3SG4KDfi9kqp_SUJLrUhlc8tv3S3DGmk5GA2SZHSL1S9j_WQAI6HovxGCD8XJmRnd5_NmMBwQpHreyVwUaMugx5uuUkhCeyIWiWuAFPiopJ0tLUnnEvzS8UJbWVO1WH4k2siYUGyMqhY_zzQ8zfd4UlWXs3QPscL6EXUtVf363uiis9Nq47DlA-VDz2drt2D-3P-bA53OYvYWRDdXVg0YA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Quando le pendenze del terreno superano il 35-40%, e la coltivazione diventa difficile, si procede alla modifica del versante tramite la realizzazione di terrazzamenti, o gradoni, che sono dei veri e propri ripiani (ottenuti attraverso l’utilizzo di mezzi meccanici che sbancano e riportano il terreno) sostenuti da muretti a secco o da scarpate erbose. ]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZko4YkN_kA0KVwTt-OfLtPLlZf9t2CXqfDYsA3SG4KDfi9kqp_SUJLrUhlc8tv3S3DGmk5GA2SZHSL1S9j_WQAI6HovxGCD8XJmRnd5_NmMBwQpHreyVwUaMugx5uuUkhCeyIWiWuAFPiopJ0tLUnnEvzS8UJbWVO1WH4k2siYUGyMqhY_zzQ8zfd4UlWXs3QPscL6EXUtVf363uiis9Nq47DlA-VDz2drt2D-3P-bA53OYvYWRDdXVg0YA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3511991,43.5588695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto terrazzato</name>
+        <description>Quando le pendenze del terreno superano il 35-40%, e la coltivazione diventa difficile, si procede alla modifica del versante tramite la realizzazione di terrazzamenti, o gradoni, che sono dei veri e propri ripiani (ottenuti attraverso l’utilizzo di mezzi meccanici che sbancano e riportano il terreno) sostenuti da muretti a secco o da scarpate erbose. </description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3461819,43.5588443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto terrazzato con giaggiolo</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkove235-ZuEgJ3D5n5F66fo63YPctYlLYg7gf7VyKOwlroXqqUcpwZDPbzTt_sIQykEhZtMwp2ZBr8scTK9QBtcRXzcNdUumObokigJKbo_5F-XfR2S6Q4FFi-WCKkYvKAAFCLI8XYuuVmru777fNAw8EUAihJpSH-Xsr0fTVIwsU41velivGdhBJHh0CTaBFfHoI0q3a8evliUrKbcXqKBC1fkuwvTt_DL4XL2CU8d3QCo-OHN_DcSNF8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Olivi su tradizionali terreni terrazzati. In questo appezzamento fra gli olivi è piantato il giaggiolo, storica coltura Lamolese]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkove235-ZuEgJ3D5n5F66fo63YPctYlLYg7gf7VyKOwlroXqqUcpwZDPbzTt_sIQykEhZtMwp2ZBr8scTK9QBtcRXzcNdUumObokigJKbo_5F-XfR2S6Q4FFi-WCKkYvKAAFCLI8XYuuVmru777fNAw8EUAihJpSH-Xsr0fTVIwsU41velivGdhBJHh0CTaBFfHoI0q3a8evliUrKbcXqKBC1fkuwvTt_DL4XL2CU8d3QCo-OHN_DcSNF8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3610524,43.5466348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vitato olivato</name>
+        <description>Vigneto coltivato nello stesso appezzamento insieme all’olivo.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3635913,43.5543371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto a girapoggio</name>
+        <description><![CDATA[Piantagione a "girapoggio", ossia che segue le curve di livello, nei terreni più pianeggianti.]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.357632,43.5421384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto a girapoggio</name>
+        <description><![CDATA[Piantagione a "girapoggio", ossia che segue le curve di livello, nei terreni più pianeggianti.]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3618784,43.555199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto terrazzato</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoFQNEuvtzXoY2MLs6be6h2IdXPgSse3Qmnf6TzEB11Mk9XDtlpUtt06K3Qg5C7cV18eaTE1ew8mb7-E0K4mp9g6CLAcy4wVFkAJTNrey0JjVsN1AdGZZiVaIkDkvP20Fttudul_NOAdOdTg8UlBe3QrSfGtvsFu8v-Ma4XBLUv8Bse0NyMUC08oOJW_-DWEIR-nKz8FVgBdidXr03n9ZuL1SqEfcLeHOaGW870eIsXk9hkiKZet6Wxj5o?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il vigneto terrazzato è una sistemazione agraria che permette di rendere coltivabili terreni con pendenze estreme. Per Lamole, che raggiunge i 700 m slm, queste sistemazioni sono importanti anche per la qualità della produzione perchè le pietre di cui sono costituiti i muri favoriscono la maturazione delle uve rilasciando nella notte il calore assorbito durante il giorno]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoFQNEuvtzXoY2MLs6be6h2IdXPgSse3Qmnf6TzEB11Mk9XDtlpUtt06K3Qg5C7cV18eaTE1ew8mb7-E0K4mp9g6CLAcy4wVFkAJTNrey0JjVsN1AdGZZiVaIkDkvP20Fttudul_NOAdOdTg8UlBe3QrSfGtvsFu8v-Ma4XBLUv8Bse0NyMUC08oOJW_-DWEIR-nKz8FVgBdidXr03n9ZuL1SqEfcLeHOaGW870eIsXk9hkiKZet6Wxj5o?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3515973,43.5590945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto terrazzato</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqXpmGAeBjb_r9SmEVmt-m2opZbhuZE6hfzAmJxYG33zkfcLMbLCOUcr6Jba6WNMCFjf2jh5G2Y3xZN-SCjIQGa3lCoS_PHpKn_7NUqkyxT-JIAUs8Jz49fQEBjam9hfjZszAMwZpezWZ4c-sUUweM01gBcpcmMT7riDrOLDbLX2LJxIx2TqX3Uk7mEeWQINI2WBXmJJRI2cd4TwXRq0baOGIIaezogVYDEn3ag7ta4qMW1ZFjOm6MyPCg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il vigneto terrazzato è una sistemazione agraria che permette di rendere coltivabili terreni con pendenze estreme. Per Lamole, che raggiunge i 700 m slm, queste sistemazioni sono importanti anche per la qualità della produzione perchè le pietre di cui sono costituiti i muri favoriscono la maturazione delle uve rilasciando nella notte il calore assorbito durante il giorno]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqXpmGAeBjb_r9SmEVmt-m2opZbhuZE6hfzAmJxYG33zkfcLMbLCOUcr6Jba6WNMCFjf2jh5G2Y3xZN-SCjIQGa3lCoS_PHpKn_7NUqkyxT-JIAUs8Jz49fQEBjam9hfjZszAMwZpezWZ4c-sUUweM01gBcpcmMT7riDrOLDbLX2LJxIx2TqX3Uk7mEeWQINI2WBXmJJRI2cd4TwXRq0baOGIIaezogVYDEn3ag7ta4qMW1ZFjOm6MyPCg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3601871,43.5598926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto terrazzato</name>
+        <description>Il vigneto terrazzato è una sistemazione agraria che permette di rendere coltivabili terreni con pendenze estreme. Per Lamole, che raggiunge i 700 m slm, queste sistemazioni sono importanti anche per la qualità della produzione perchè le pietre di cui sono costituiti i muri favoriscono la maturazione delle uve rilasciando nella notte il calore assorbito durante il giorno</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3583485,43.5566404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto terrazzato</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrO_Uw8eFuhUKsxyaPSiGEBWNGX7rW-GPkdXzaavaJlHeKscszNk5tLj6JTLfl9QLVe3m9Na5hkqbkV0DDnd7hGG9dR-fV6e4vHme3gntZyTjHWvSmt6er3384KLI5TwIVB-KqX1mjibBIAIPR5VV-73ovAXDchhnI1GDIMP0OIoADaYQhPVYPoEQA3jcYpwjNPUXymFYfbx4UDVji90qm6Dv1t_E0ucHXUpHLcYWxnsOFDMnNtKiaXlZg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il vigneto terrazzato è una sistemazione agraria che permette di rendere coltivabili terreni con pendenze estreme. Per Lamole, che raggiunge i 700 m slm, queste sistemazioni sono importanti anche per la qualità della produzione perchè le pietre di cui sono costituiti i muri favoriscono la maturazione delle uve rilasciando nella notte il calore assorbito durante il giorno<br>In questo vigneto sono presenti viti con più di cento anni]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrO_Uw8eFuhUKsxyaPSiGEBWNGX7rW-GPkdXzaavaJlHeKscszNk5tLj6JTLfl9QLVe3m9Na5hkqbkV0DDnd7hGG9dR-fV6e4vHme3gntZyTjHWvSmt6er3384KLI5TwIVB-KqX1mjibBIAIPR5VV-73ovAXDchhnI1GDIMP0OIoADaYQhPVYPoEQA3jcYpwjNPUXymFYfbx4UDVji90qm6Dv1t_E0ucHXUpHLcYWxnsOFDMnNtKiaXlZg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.357362,43.5478032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigneto terrazzato</name>
+        <description>Il vigneto terrazzato è una sistemazione agraria che permette di rendere coltivabili terreni con pendenze estreme. Per Lamole, che raggiunge i 700 m slm, queste sistemazioni sono importanti anche per la qualità della produzione perchè le pietre di cui sono costituiti i muri favoriscono la maturazione delle uve rilasciando nella notte il calore assorbito durante il giorno</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3579331,43.5432136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arbusteto</name>
+        <description>Comunità vegetali caratterizzate dalla presenza di arbusti, piante perenni con fusto legnoso ramificato fin dalla base. </description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3731276,43.5590671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castagneti di Lamole</name>
+        <description>Sulle montagne che circondano Lamole sono ancora presenti boschi di castagno, da cui si ricavano i pali per il sostegno delle viti.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3534477,43.5535669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bosco di latifoglie</name>
+        <description>Bosco caratterizzato da alberi che presentano foglie larghe, indipendentemente dalla loro forma, e che generalmente perdono le foglie in inverno.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3679563,43.5582118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sistemazioni idraulico agrarie</name>
+      <Placemark>
+        <name>Gattaiola</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZko8fLeSJZ2GQEsVTAHp3Neo-_9aQxltVXKmQwvNQ2lGVk-fW9sDXf6rSPnlfSJSmy8Z0w8KZMofqjxLpEWnwh_nraWQS5Dng6r7D2S25hon_x9zvtnTWX48AurB9slTUJxSm405apKwA2OC_mzuTnEPP36gOHPY6kF5WkAMPqCgeYAAhH65DhLkXXnDogKv7LSqGd_lyqlxt1dDeehMelzmHoXRV0qiMTFmVvom1U6sCQf3tFOZRrAT2lw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Una “gattaiola”, fossa larga un metro e profonda altrettanto, che prevedeva la disposizione sul fondo dei sassi per formare una fogna. Sopra alla fogna si disponevano ancora sassi con dimensioni decrescenti risalendo verso la superficie, infine si metteva la terra. Il nome sembra sia dovuto al fatto che il collaudo prevedeva il passaggio di un gatto attraverso la stessa. <br>(foto M. Venturi)]]></description>
+        <styleUrl>#icon-1703-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZko8fLeSJZ2GQEsVTAHp3Neo-_9aQxltVXKmQwvNQ2lGVk-fW9sDXf6rSPnlfSJSmy8Z0w8KZMofqjxLpEWnwh_nraWQS5Dng6r7D2S25hon_x9zvtnTWX48AurB9slTUJxSm405apKwA2OC_mzuTnEPP36gOHPY6kF5WkAMPqCgeYAAhH65DhLkXXnDogKv7LSqGd_lyqlxt1dDeehMelzmHoXRV0qiMTFmVvom1U6sCQf3tFOZRrAT2lw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3582109,43.5428345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muretti a secco</name>
+        <description><![CDATA[Strutture in pietra realizzate senza uso di leganti o malte, secondo tecniche che si tramandano da generazioni di agricoltori. Tali elementi del paesaggio sono riconosciuti Patrimonio dell’Umanità: “svolgono un ruolo vitale nella prevenzione delle slavine, delle alluvioni, delle valanghe, nel combattere l'erosione e la desertificazione delle terre, migliorando la biodiversità e creando le migliori condizioni microclimatiche per l'agricoltura”.]]></description>
+        <styleUrl>#icon-1703-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            11.3476624,43.5594739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muretti a secco</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpj3JM0nGlgsBvp7rhWrsG4zjGEPsPJkzkbukvz0pb7LqaTWpTiuF7MuwNrGUnjXE1Ct131OibXaZknOPWhZuOt8UjKvJAIGBdZ3_KdVQ65Qm_yG3CAAsx46xARoRI_6wsf5vIGPm5dVmg7-AUne7UtLs0oH3Rn9QMBZSv2m8_Snc-PAg0gG6qzDrILHjD5HMMayX4fo2e_svyfieF89AxSChe9F_s0I7OFXUQao3vsLZaXNke4GgL5fj4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>In questo muretto è incastonata una pietra che riporta la data 1740]]></description>
+        <styleUrl>#icon-1703-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpj3JM0nGlgsBvp7rhWrsG4zjGEPsPJkzkbukvz0pb7LqaTWpTiuF7MuwNrGUnjXE1Ct131OibXaZknOPWhZuOt8UjKvJAIGBdZ3_KdVQ65Qm_yG3CAAsx46xARoRI_6wsf5vIGPm5dVmg7-AUne7UtLs0oH3Rn9QMBZSv2m8_Snc-PAg0gG6qzDrILHjD5HMMayX4fo2e_svyfieF89AxSChe9F_s0I7OFXUQao3vsLZaXNke4GgL5fj4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3508475,43.5586145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Edifici rurali storici</name>
+    </Folder>
+    <Folder>
+      <name>Produzioni tipiche locali</name>
+      <Placemark>
+        <name>Sangioveto grosso di Lamole</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpBzP6U7HLB0kMgh5Aq8TnEXI9tAsDJaVkiWWKR8Q9KbmCcx-5--QG6fW0CGVVmHEVR3J3OvQer4YeAG_-JNLTRfW0FC5GeMQMsp_YtXQtUsj48uJwD_Jxg9kxAlQd90k_c64aqlapJCnGvNt8xXrQ7xWDdBC9IYGGvoWppO1_6xrYvTeNcO5Gfi3Bmo0JPXvtG-2yXxblIyw7PG7P6nqQQmyTY0aRXS-FWb1FDx2lsIycs9cDQOhwklbE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il sangioveto grosso di Lamole è un clone del sangiovese, il vitigno più diffuso in Toscana. E' il vitigno alla base della produzione del vino di Lamole. Il sangiovese ha maturazione tardiva (fine settembre-inizio ottobre) e per questo trova a Lamole la sua collocazione ideale]]></description>
+        <styleUrl>#icon-1798-673AB7</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpBzP6U7HLB0kMgh5Aq8TnEXI9tAsDJaVkiWWKR8Q9KbmCcx-5--QG6fW0CGVVmHEVR3J3OvQer4YeAG_-JNLTRfW0FC5GeMQMsp_YtXQtUsj48uJwD_Jxg9kxAlQd90k_c64aqlapJCnGvNt8xXrQ7xWDdBC9IYGGvoWppO1_6xrYvTeNcO5Gfi3Bmo0JPXvtG-2yXxblIyw7PG7P6nqQQmyTY0aRXS-FWb1FDx2lsIycs9cDQOhwklbE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3511638,43.5471086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Aspetti geomorfologici</name>
+      <Placemark>
+        <name>Aspetti geomorfologici</name>
+        <description><![CDATA[Il substrato geologico è formato da arenarie torbiditiche quarzoso-feldspatiche, con calcite, fillosilicati e scisti siltosi, mentre nella parte sud dell’area si trovano marne giallastre di origine oligocenica.<br><br>IMPORTANTE: la localizzazione dell'icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1720-097138</styleUrl>
+        <Point>
+          <coordinates>
+            11.3582149,43.5546664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Altri luoghi d'interesse]]></name>
+      <Placemark>
+        <name>Castello di Lamole</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkq0Ze_DYpPUmZogbQt9RmzWahcmbZxxQBBTzPNNwacQLObuzKp9A2su_qihycavS4FdvBgaAMBFQzDlL8riU_QDd-pvjPJT03FoYFgfd_pDa7lIHi10Nel82J0ow0xk0IER4aMbe_et6vL1cD5BkP0fC4VFNzgNKdDulAETu0rN4k0qJ7RnlBs_1QxY1hdEoWW5xqacBmvg2Yygr0KBaxua-CAhOT8769p-LqgTCm8a9ItWs-XWjFmcfwY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il borgo del Castello di Lamole era parte della rete difensiva sul confine tra i territori di Firenze e di Siena, la cui origine si fa risalire al X-XII secolo. tra il XIV ed il XV secolo fu uno dei più importanti centri militari del territorio. oggi si possono osservare le rovine delle vecchie mura di cinta le cui pietre sono state nel tempo utilizzate per la realizzazione od il restauro degli edifici del borgo. Tutto intorno al castello si possono osservare le colline terrazzate.]]></description>
+        <styleUrl>#icon-1548-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkq0Ze_DYpPUmZogbQt9RmzWahcmbZxxQBBTzPNNwacQLObuzKp9A2su_qihycavS4FdvBgaAMBFQzDlL8riU_QDd-pvjPJT03FoYFgfd_pDa7lIHi10Nel82J0ow0xk0IER4aMbe_et6vL1cD5BkP0fC4VFNzgNKdDulAETu0rN4k0qJ7RnlBs_1QxY1hdEoWW5xqacBmvg2Yygr0KBaxua-CAhOT8769p-LqgTCm8a9ItWs-XWjFmcfwY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3582515,43.551972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa Lamole</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqkrvvBSZlLqClRGz1_x1MVl9O4OXih4U_d32cflliEKFuzzBz0cayGdw3Tkn-t7MwfLScvvlbNhJbq2NhNIETQeUkCopc1FsPp1JaaN6WDzN7MwXCpDIj5L1_2DRxBODQQ6m7XSSEMtoe-bvKGFtXbIuAJpOCj6At4CunpANvjm1ZU9UI3eAlqFSKtqPhRX97VoO9Jdy_m_SMOS9-9YmbPamT6-pX6jKv7hMQyrsXRqMuD1MCHqR6bgsU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Chiesa di San Donato a Lamole<br>È costruzione di stile romanico, trasformata nel 1860. All'interno, oltre ad un trittico di scuola fiorentina del XIV secolo, si custodiscono alcune tele del Seicento, una di scuola senese con la Vergine col Bambino e santi e uno Sposalizio mistico di santa Caterina e santi, vicino ai modi di Matteo Rosselli]]></description>
+        <styleUrl>#icon-1548-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqkrvvBSZlLqClRGz1_x1MVl9O4OXih4U_d32cflliEKFuzzBz0cayGdw3Tkn-t7MwfLScvvlbNhJbq2NhNIETQeUkCopc1FsPp1JaaN6WDzN7MwXCpDIj5L1_2DRxBODQQ6m7XSSEMtoe-bvKGFtXbIuAJpOCj6At4CunpANvjm1ZU9UI3eAlqFSKtqPhRX97VoO9Jdy_m_SMOS9-9YmbPamT6-pX6jKv7hMQyrsXRqMuD1MCHqR6bgsU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3555101,43.5498413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lavatoio</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqfGtVg8-2sC3xnTHyvaEn4v0TfjV5kF6hDXIE4Wg4-cVqFqnb8fLHFRjePE4Ea8GMA6GB8RHC3N9p9_r8ZkQtUvXOwv-h0nubMntmsKx2JCWZJCBpRqj_GRT7X78xixHgVn77kNtwpsYuAIvbmceXeeWdlgz_LIpFLtioDkoEvh7Xvyc5scpZABy_ejadMM2T9hUhh0zW4wYbH7luWrswI6zPrUdkjvqoJhDiCsKXycCQttIg33KQKf4o?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1548-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqfGtVg8-2sC3xnTHyvaEn4v0TfjV5kF6hDXIE4Wg4-cVqFqnb8fLHFRjePE4Ea8GMA6GB8RHC3N9p9_r8ZkQtUvXOwv-h0nubMntmsKx2JCWZJCBpRqj_GRT7X78xixHgVn77kNtwpsYuAIvbmceXeeWdlgz_LIpFLtioDkoEvh7Xvyc5scpZABy_ejadMM2T9hUhh0zW4wYbH7luWrswI6zPrUdkjvqoJhDiCsKXycCQttIg33KQKf4o?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.3586861,43.5584167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto Panoramico</name>
+        <description>Affaccio panoramico verso la valle della Greve a Nord e verso Lamole a Sud</description>
+        <styleUrl>#icon-1523-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3492842,43.5591933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto panoramico</name>
+        <description>Nei pressi del centro abitato di Lamole.</description>
+        <styleUrl>#icon-1523-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            11.3555678,43.5494516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sorgente</name>
+        <description>Sorgente naturale, a margine di un torrente, dove poter prelevare acqua.</description>
+        <styleUrl>#icon-1548-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            11.3603342,43.5503992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Link utili</name>
+      <Placemark>
+        <name>Link utili</name>
+        <description><![CDATA[http://www.comune.greve-in-chianti.fi.it/ps/s/associazioni<br><br>http://www.chianticlassico.com/calendario-eventi/profumi-di-lamole/ <br><br>IMPORTANTE: la localizzazione dell'icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1608-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            11.3531322,43.5491378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Livello senza titolo</name>
+      <Placemark>
+        <name>Sentiero Cai n.30</name>
+        <description>Partenza Sentiero 30 – da Lamole a Monte San Michele</description>
+        <styleUrl>#icon-1502-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            11.3579481,43.5485151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sentiero Cai n.28</name>
+        <description>Partenza Sentiero 28 – da Casole a Monte San Michele</description>
+        <styleUrl>#icon-1502-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            11.3580857,43.5575981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

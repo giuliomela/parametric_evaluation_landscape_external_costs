@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vite maritata della pianura Flegrea - Paesaggio rurale storico</name>
+    <description><![CDATA[Progetto della Rete Rurale Nazionale per la valorizzazione dei paesaggi rurali storici censiti nel "Catalogo nazionale dei paesaggi rurali storici" (Laterza, 2010). L’Italia offre un patrimonio incomparabile di paesaggi forgiati dall’ uomo nel corso dei secoli, che per caratteristiche ed elementi di significatività e storicità, rappresentano un obiettivo primario di tutela e conservazione. Il volume presenta il risultato di una ricerca promossa dal Ministero delle Politiche Agricole Alimentari, Forestali e del Turismo, in collaborazione con 14 università italiane e alcuni enti di ricerca internazionali.]]></description>
+    <Style id="icon-1582-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1582-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1582-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1582-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1582-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1587-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1587-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1587-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1587-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1587-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1608-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1608-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-2101-0-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF0000-2101-0-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3.1515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-2101-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-2101-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-2101-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Descrizione del paesaggio</name>
+      <Placemark>
+        <name>Sei nel paesaggio rurale storico della Vita maritata della pianura Flegrea</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpYdUDh7nJpgGDWgq844g_djZ3qExhoOraDXUYyEN7WCTnnR7nURpriGWBx_BQYkbNEnc7ji9Ba6ldmPDgretBp2cKtWBNBqppBGj-KKPC6Cq4mmub0CmafLeBOTj1TB0g7ijx2KN4LGcfn1OLcabT6OVypa1E4AzBT_4_ee9YW79pYPafMoKcpiRQnVc_dd7VFKZWX3FE1fw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il paesaggio della vite maritata è situato in un’area di proprietà prevalentemente privata, nel territorio del comune di Giugliano in Campania per circa 900 ettari.<br>La significatività dell’area è senza dubbio legata ai filari alti di vite maritata al pioppo, discendenti diretti, secondo Sereni, dell’arbustum galicum etrusco, e che il Manarese definisce l’arbustato campano. Si tratta di uno dei due sistemi che in alternativa alla vite bassa ad alberello ha caratterizzato la viticoltura europea, almeno fino al secondo dopoguerra. Il sistema della vite maritata consiste nel fare arrampicare la vite su un tutore vivo costituito da un albero di pioppo.<br>La vite forma così caratteristiche ghirlande sugli alti pioppi e tra di essi sviluppa lunghi e numerosi tralci in direzione meridiana, limitando l’ombreggiamento alle colture sottostanti, e contribuendo a creare un paesaggio agrario unico nel suo genere. Negli ambienti della pianura vulcanica la vite raggiunge uno sviluppo veramente eccezionale; alcuni esemplari hanno tronchi di 20-30 cm di diametro; i filari costituiscono la trama fondamentale del paesaggio e regolano le forme delle particelle.<br> Dai vigneti della pianura flegrea si ricavano i vini Aversa asprinio Doc e Aversa asprinio alberata Doc. L’integrità dell’area è oggi compromessa, nel suo generale assetto paesaggistico; le trasformazioni che hanno interessato negli ultimi quarant’anni la pianura vulcanica flegrea sono legate, oltre che a processi interni al settore agricolo, all’impetuoso sviluppo dei sistemi urbani, produttivi e infrastrutturali, e alla conseguente intensa competizione per l’uso dei suoli.<br>Lo spazio rurale si trova quindi frammentato in isole. Il sistema colturale della vite maritata presenta non poche difficoltà di sopravvivenza, anche a causa delle particolari tecniche di coltivazione legate a conoscenze tradizionali locali in via di progressiva scomparsa.<br>(foto: https://bit.ly/2EuQCik)]]></description>
+        <styleUrl>#poly-FF0000-2101-0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpYdUDh7nJpgGDWgq844g_djZ3qExhoOraDXUYyEN7WCTnnR7nURpriGWBx_BQYkbNEnc7ji9Ba6ldmPDgretBp2cKtWBNBqppBGj-KKPC6Cq4mmub0CmafLeBOTj1TB0g7ijx2KN4LGcfn1OLcabT6OVypa1E4AzBT_4_ee9YW79pYPafMoKcpiRQnVc_dd7VFKZWX3FE1fw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                14.157849,40.966379,0
+                14.157924,40.966387,0
+                14.157974,40.966418,0
+                14.157928,40.966846,0
+                14.157811,40.96807,0
+                14.157767,40.969148,0
+                14.157721,40.970441,0
+                14.157697,40.971519,0
+                14.157597,40.97461,0
+                14.15755,40.97591,0
+                14.157504,40.975937,0
+                14.157435,40.979035,0
+                14.157434,40.979119,0
+                14.157421,40.979341,0
+                14.157337,40.980729,0
+                14.15731,40.982462,0
+                14.157352,40.984325,0
+                14.157346,40.985232,0
+                14.157354,40.985272,0
+                14.157364,40.985278,0
+                14.157299,40.985308,0
+                14.157242,40.985333,0
+                14.156895,40.985336,0
+                14.154496,40.985337,0
+                14.15368,40.985343,0
+                14.152872,40.985368,0
+                14.152298,40.9854,0
+                14.151951,40.985398,0
+                14.150444,40.985396,0
+                14.14891,40.985403,0
+                14.145231,40.985385,0
+                14.144338,40.985394,0
+                14.143014,40.985347,0
+                14.141827,40.985295,0
+                14.140773,40.985266,0
+                14.139441,40.985262,0
+                14.138431,40.985261,0
+                14.136965,40.985283,0
+                14.13564,40.98528,0
+                14.135058,40.985294,0
+                14.13272,40.985279,0
+                14.131735,40.985272,0
+                14.130936,40.985211,0
+                14.129878,40.985196,0
+                14.129216,40.985191,0
+                14.128812,40.985195,0
+                14.128432,40.985216,0
+                14.1281,40.985263,0
+                14.127664,40.985259,0
+                14.125895,40.98524,0
+                14.125475,40.985212,0
+                14.124874,40.985211,0
+                14.124341,40.985188,0
+                14.124203,40.985218,0
+                14.123024,40.985203,0
+                14.121356,40.98523,0
+                14.120039,40.985214,0
+                14.119385,40.985196,0
+                14.117734,40.98515,0
+                14.117355,40.985141,0
+                14.116992,40.985108,0
+                14.116798,40.9851,0
+                14.116159,40.985114,0
+                14.115675,40.985116,0
+                14.114766,40.985143,0
+                14.11416,40.985144,0
+                14.113918,40.985118,0
+                14.113724,40.985116,0
+                14.113571,40.985097,0
+                14.113506,40.98509,0
+                14.112909,40.985098,0
+                14.112472,40.985107,0
+                14.112057,40.985076,0
+                14.111403,40.98504,0
+                14.110781,40.985035,0
+                14.110401,40.985057,0
+                14.10986,40.985041,0
+                14.10953,40.984995,0
+                14.109215,40.984956,0
+                14.108331,40.984934,0
+                14.107668,40.984972,0
+                14.107304,40.984981,0
+                14.107037,40.985028,0
+                14.106753,40.985124,0
+                14.106381,40.985188,0
+                14.106106,40.985223,0
+                14.105656,40.98529,0
+                14.10472,40.985252,0
+                14.103686,40.985262,0
+                14.103149,40.985261,0
+                14.102422,40.985218,0
+                14.101551,40.985175,0
+                14.100589,40.985186,0
+                14.099943,40.985187,0
+                14.099471,40.985162,0
+                14.10049,40.983909,0
+                14.101196,40.983039,0
+                14.101775,40.982337,0
+                14.102563,40.981388,0
+                14.103873,40.979779,0
+                14.10529,40.978049,0
+                14.10669,40.976318,0
+                14.108172,40.974515,0
+                14.109564,40.972815,0
+                14.110923,40.971163,0
+                14.112151,40.96964,0
+                14.112364,40.969372,0
+                14.113838,40.967593,0
+                14.115311,40.965802,0
+                14.115385,40.965692,0
+                14.115426,40.965668,0
+                14.11546,40.96568,0
+                14.116185,40.96568,0
+                14.120141,40.96571,0
+                14.126989,40.965771,0
+                14.133963,40.965839,0
+                14.140835,40.966005,0
+                14.145627,40.966186,0
+                14.147394,40.966161,0
+                14.147757,40.966133,0
+                14.150923,40.96603,0
+                14.15166,40.966035,0
+                14.151973,40.966037,0
+                14.153673,40.966107,0
+                14.157863,40.966371,0
+                14.157849,40.966379,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Usi del suolo tradizionali</name>
+      <Placemark>
+        <name>Viti maritate</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoOlSeQNVJA21HXs5FicAlzMNfvBrE3zf-_9Rf-h3EuQbWfHozgSfwCcAMtNmz_hLHKAdMft5NDnOpQc5Y5l78h1K3UKB-OqesySkp5XIw2vK_NjB_10AAbEbshinx2zUhwfAU2vOvFPDlSuFKN9CU_ovvQOXqc73J3jTrqCgXN47dSFven4GXtjNifUbg1pk184zfDFIUm5w?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Coltivazioni di vite maritata, ossia fatta vegetare sul tronco di un albero, generalmente un olmo, salice, acero o pioppo.<br>(foto: Google Earth)]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoOlSeQNVJA21HXs5FicAlzMNfvBrE3zf-_9Rf-h3EuQbWfHozgSfwCcAMtNmz_hLHKAdMft5NDnOpQc5Y5l78h1K3UKB-OqesySkp5XIw2vK_NjB_10AAbEbshinx2zUhwfAU2vOvFPDlSuFKN9CU_ovvQOXqc73J3jTrqCgXN47dSFven4GXtjNifUbg1pk184zfDFIUm5w?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.1325291,40.9810018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viti maritate</name>
+        <description>Coltivazioni di vite maritata, ossia fatta vegetare sul tronco di un albero, generalmente un olmo, salice, acero o pioppo.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.1519693,40.9761577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sistemazioni idraulico agrarie</name>
+    </Folder>
+    <Folder>
+      <name>Edifici rurali storici</name>
+    </Folder>
+    <Folder>
+      <name>Produzioni tipiche locali</name>
+      <Placemark>
+        <name>Mandarino Flegreo</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkowkONn7tGBI4AVX9QA6lPOmEC7r6TzcPT7lC9hsd3CkrYSb8Ur0_Reqao9cs2xtasSJYbe-K-yde3RUBAl31xzj-HwvbNFbAKVxxe6XnrqJYuzk_hq0C1nuafyj_g24um1lfO_L5K9balEMhtZ10SBd3Nq5coXYFO88D96fEKzzYCCa7iToZ-Qyge68teuFKnMusrylvKugg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Da circa due secoli la produzione dei mandarini si tramanda di generazione in generazione, e spesso i piccoli agrumeti rappresentavano una parte importante della dote da dare alle figlie in occasione del matrimonio; venivano piantati all'epoca del battesimo.<br>Il raccolto di mandarini, un tempo esportati massicciamente, costituiva una fondamentale componente del reddito agricolo della zona, assieme a vino e olio. <br>(fonte e foto: https://bit.ly/2ELG1kn - Agricoltura Regione Campania)]]></description>
+        <styleUrl>#icon-1582-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkowkONn7tGBI4AVX9QA6lPOmEC7r6TzcPT7lC9hsd3CkrYSb8Ur0_Reqao9cs2xtasSJYbe-K-yde3RUBAl31xzj-HwvbNFbAKVxxe6XnrqJYuzk_hq0C1nuafyj_g24um1lfO_L5K9balEMhtZ10SBd3Nq5coXYFO88D96fEKzzYCCa7iToZ-Qyge68teuFKnMusrylvKugg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.1035733,40.9814968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mela annurca Flegrea</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoFM-QJvoWVlrmOp0PsqI6OEpwFScukl-Sur8n7EuDOK2cksduNW1zN9jPJXmmZtMXy6Vh6KokSzKwB7H5tJFidIkCsl2dXtBiks7hRGR3gzNJFvoCZXvt7s6vPkEdzbO5pJ5GL3EkL5w1VaqeDo0Xj3fKuK6YhPVPikBwEVJepbQ2p6GPHShJKBhpIF6bqxxEba_xb0BL7Nds?authuser=0&fife=s16383" height="200" width="auto" /><br><br>A differenza delle altre varietà di mele, la mela Annurca Campana IGP (Indicazione Geografica Protetta) ha una raccolta insolita. Infatti viene raccolta ancora acerba e poi riposta a terra e lasciata lì a maturare.<br>Nel periodo autunnale le mele sono pronte per essere mangiate e utilizzate per tanti piatti. <br>(fonte e foto: https://bit.ly/2EOxNbj)]]></description>
+        <styleUrl>#icon-1582-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoFM-QJvoWVlrmOp0PsqI6OEpwFScukl-Sur8n7EuDOK2cksduNW1zN9jPJXmmZtMXy6Vh6KokSzKwB7H5tJFidIkCsl2dXtBiks7hRGR3gzNJFvoCZXvt7s6vPkEdzbO5pJ5GL3EkL5w1VaqeDo0Xj3fKuK6YhPVPikBwEVJepbQ2p6GPHShJKBhpIF6bqxxEba_xb0BL7Nds?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.1507486,40.9728478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Aspetti geomorfologici</name>
+      <Placemark>
+        <name>Aspetti geomorfologici</name>
+        <description><![CDATA[L’area è caratterizzata da ampie superfici rilevate che raccordano dolcemente i versanti dei vulcani e dei rilievi calcarei preappenninici con il livello di base delle pianure alluvionali dei Regi Lagni e del Volturno, su suoli vulcanici scuri, profondi, permeabili, facilmente lavorabili.<br><br>IMPORTANTE: la localizzazione dell’icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1720-097138</styleUrl>
+        <Point>
+          <coordinates>
+            14.1292375,40.977788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Link utili</name>
+      <Placemark>
+        <name>Link utili</name>
+        <description><![CDATA[La vigna maritata (oryctesblog): https://bit.ly/2C2aDfM<br><br>Greenplanetnews.it: https://bit.ly/2GXJnTy<br><br>Campaniache.com: https://bit.ly/2HewhR2<br><br>Agraria.org: https://bit.ly/2EL6VZy<br><br>Agricoltura Regione Campania: https://bit.ly/2C5afwM<br><br>Enolo.it: https://bit.ly/2Ueln1v<br><br>Consorzio tutela Flegrei: https://bit.ly/2Etut3F<br><br>Quattro calici.it: https://bit.ly/2NFZO7D<br><br>IMPORTANTE: la localizzazione dell’icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1608-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            14.1375201,40.9706598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

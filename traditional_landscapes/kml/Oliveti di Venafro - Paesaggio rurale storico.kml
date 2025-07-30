@@ -1,0 +1,2758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Oliveti di Venafro - Paesaggio rurale storico</name>
+    <description><![CDATA[Progetto della Rete Rurale Nazionale per la valorizzazione dei paesaggi rurali storici censiti nel "Catalogo nazionale dei paesaggi rurali storici" (Laterza, 2010). L’Italia offre un patrimonio incomparabile di paesaggi forgiati dall’uomo nel corso dei secoli, che per caratteristiche ed elementi di significatività e storicità, rappresentano un obiettivo primario di tutela e conservazione. Il volume presenta il risultato di una ricerca promossa dal Ministero delle Politiche Agricole Alimentari, Forestali e del Turismo, in collaborazione con 14 università italiane e alcuni enti di ricerca internazionali.]]></description>
+    <Style id="icon-1502-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-673AB7-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-673AB7-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1582-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1582-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1582-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1582-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1582-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1587-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1587-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1587-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1587-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1587-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1587-AFB42B-nodesc-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1587-AFB42B-nodesc-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1587-AFB42B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1587-AFB42B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1587-AFB42B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1591-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1591-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1591-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1591-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1591-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1608-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1608-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1702-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1702-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1702-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1702-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1702-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-1388-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.388</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-1388-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.082</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-1388">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-1388-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-1388-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-1775-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.775</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-1775-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.6625</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-1775">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-1775-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-1775-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-1969-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.969</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-1969-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.9535</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-1969">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-1969-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-1969-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-2163-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.163</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-2163-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3.2445</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-2163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-2163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-2163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-2356-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.356</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-2356-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3.534</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-2356">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-2356-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-2356-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-2550-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.55</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-2550-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3.825</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-2550">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-2550-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-2550-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1A237E-2744-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-2744-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-673AB7-1969-normal">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.969</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-673AB7-1969-highlight">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>2.9535</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-673AB7-1969">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-673AB7-1969-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-673AB7-1969-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-87CEAC-3713-normal">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>3.713</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-87CEAC-3713-highlight">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>5.5695</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-87CEAC-3713">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-87CEAC-3713-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-87CEAC-3713-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F48FB1-1969-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>1.969</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F48FB1-1969-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>2.9535</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F48FB1-1969">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F48FB1-1969-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F48FB1-1969-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-1581-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.581</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-1581-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.3715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-1581">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-1581-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-1581-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-1969-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.969</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-1969-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.9535</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-1969">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-1969-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-1969-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-2163-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.163</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-2163-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>3.2445</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-2163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-2163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-2163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-2356-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.356</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-2356-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>3.534</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-2356">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-2356-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-2356-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-1000-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-1000-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>1.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-1000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-1000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-1000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-A52714-3001-0-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>3.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>001427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-A52714-3001-0-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.5015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>001427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-A52714-3001-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A52714-3001-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A52714-3001-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Descrizione del paesaggio</name>
+      <Placemark>
+        <name>Sei nel paesaggio rurale storico degli Oliveti di Venafro</name>
+        <description><![CDATA[descrizione: Questo paesaggio è caratterizzato da olivi di antico impianto e che assumono talvolta l’aspetto di bosco. L’olio che se ne ricava è conosciuto e apprezzato sin dai tempi antichi, con riferimenti nelle opere di Columella, Orazio, Varrone, Plinio il Vecchio, Catone e Giovenale. <br>Si tramanda che l’olivo sia stato introdotto in Venafro da un certo Licinio, forse uno dei tanti coloni-veterani romani, da cui deriva il nome delle piante «liciniane», specie da tempo molto diffusa nella zona. Infatti il famoso olio di Venafro, l’Aurino, così detto per il colore aureo e per la grande qualità che lo caratterizzava, si faceva con quella particolare oliva che ancora oggi si chiama Liciniana.<br>È nel periodo romano che oltre alla coltura dell’olivo venne introdotta anche quella della vite: vite e ulivo sono rimaste fino a oggi le colture prevalenti. <br>Tra Otto e Novecento si iniziò a olivetare anche la piana verso il Volturno. Oggi l’olio locale è riconosciuto dalla Dop Molise, mentre il Ministero delle Politiche Agricole Alimentari e Forestali riconosce come Prodotto agroalimentare tradizionale le «olive al naturale» di Venafro.<br>(foto: M. Tredici)<br>Area ha: 529.75]]></description>
+        <styleUrl>#poly-A52714-3001-0</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Questo paesaggio è caratterizzato da olivi di antico impianto e che assumono talvolta l’aspetto di bosco. L’olio che se ne ricava è conosciuto e apprezzato sin dai tempi antichi, con riferimenti nelle opere di Columella, Orazio, Varrone, Plinio il Vecchio, Catone e Giovenale. 
+Si tramanda che l’olivo sia stato introdotto in Venafro da un certo Licinio, forse uno dei tanti coloni-veterani romani, da cui deriva il nome delle piante «liciniane», specie da tempo molto diffusa nella zona. Infatti il famoso olio di Venafro, l’Aurino, così detto per il colore aureo e per la grande qualità che lo caratterizzava, si faceva con quella particolare oliva che ancora oggi si chiama Liciniana.
+È nel periodo romano che oltre alla coltura dell’olivo venne introdotta anche quella della vite: vite e ulivo sono rimaste fino a oggi le colture prevalenti. 
+Tra Otto e Novecento si iniziò a olivetare anche la piana verso il Volturno. Oggi l’olio locale è riconosciuto dalla Dop Molise, mentre il Ministero delle Politiche Agricole Alimentari e Forestali riconosce come Prodotto agroalimentare tradizionale le «olive al naturale» di Venafro.
+(foto: M. Tredici)</value>
+          </Data>
+          <Data name="Area ha">
+            <value>529.75</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                14.0039048,41.4847377,0
+                14.0033308,41.4846997,0
+                14.0030078,41.4846327,0
+                14.0029018,41.4845777,0
+                14.0029908,41.4845157,0
+                14.0032238,41.4831267,0
+                14.0032448,41.4829917,0
+                14.0034328,41.4829087,0
+                14.0035258,41.4829147,0
+                14.0036088,41.4827887,0
+                14.0037028,41.4827847,0
+                14.0038718,41.4826737,0
+                14.0039458,41.4823467,0
+                14.0040038,41.4822297,0
+                14.0040748,41.4820647,0
+                14.0042018,41.4819707,0
+                14.0043708,41.4817407,0
+                14.0044248,41.4815987,0
+                14.0045528,41.4814707,0
+                14.0046798,41.4814247,0
+                14.0047578,41.4814037,0
+                14.0047968,41.4813697,0
+                14.0050658,41.4813667,0
+                14.0051758,41.4812837,0
+                14.0053648,41.4812827,0
+                14.0054748,41.4812207,0
+                14.0055568,41.4811997,0
+                14.0056618,41.4811217,0
+                14.0058628,41.4810577,0
+                14.0061078,41.4808547,0
+                14.0060208,41.4807747,0
+                14.0059778,41.4806477,0
+                14.0059398,41.4805947,0
+                14.0059108,41.4804107,0
+                14.0058918,41.4803097,0
+                14.0058768,41.4801307,0
+                14.0058428,41.4800407,0
+                14.0058348,41.4799037,0
+                14.0058368,41.4797907,0
+                14.0058058,41.4797347,0
+                14.0058388,41.4796167,0
+                14.0059248,41.4795277,0
+                14.0059538,41.4794227,0
+                14.0059938,41.4793447,0
+                14.0061608,41.4791797,0
+                14.0062608,41.4790387,0
+                14.0063678,41.4789527,0
+                14.0064578,41.4787577,0
+                14.0066858,41.4785577,0
+                14.0067478,41.4783967,0
+                14.0068518,41.4782457,0
+                14.0068608,41.4780897,0
+                14.0068798,41.4779877,0
+                14.0067558,41.4778107,0
+                14.0068018,41.4777717,0
+                14.0068098,41.4776727,0
+                14.0068688,41.4775477,0
+                14.0069788,41.4775047,0
+                14.0070608,41.4774457,0
+                14.0072638,41.4773477,0
+                14.0073698,41.4772007,0
+                14.0074618,41.4772017,0
+                14.0075178,41.4772587,0
+                14.0076168,41.4772077,0
+                14.0076528,41.4771217,0
+                14.0077748,41.4770487,0
+                14.0078538,41.4771537,0
+                14.0081388,41.4769657,0
+                14.0082788,41.4769667,0
+                14.0085418,41.4769817,0
+                14.0086288,41.4769177,0
+                14.0087728,41.4768967,0
+                14.0088178,41.4769757,0
+                14.0091468,41.4769177,0
+                14.0092678,41.4769537,0
+                14.0093418,41.4770017,0
+                14.0093758,41.4770577,0
+                14.0114298,41.4767207,0
+                14.0154058,41.4765357,0
+                14.0151198,41.4764037,0
+                14.0149848,41.4763347,0
+                14.0136908,41.4757997,0
+                14.0133278,41.4756377,0
+                14.0131258,41.4755097,0
+                14.0127768,41.4752247,0
+                14.0126488,41.4751237,0
+                14.0122498,41.4749367,0
+                14.0120258,41.4747817,0
+                14.0118208,41.4746337,0
+                14.0116698,41.4745527,0
+                14.0113478,41.4744347,0
+                14.0112288,41.4743877,0
+                14.0110828,41.4743887,0
+                14.0109148,41.4743407,0
+                14.0106828,41.4742607,0
+                14.0104658,41.4742597,0
+                14.0102908,41.4742677,0
+                14.0102098,41.4742867,0
+                14.0100028,41.4742387,0
+                14.0097228,41.4741557,0
+                14.0094768,41.4741267,0
+                14.0094798,41.4741607,0
+                14.0096128,41.4741787,0
+                14.0096538,41.4742477,0
+                14.0097308,41.4742747,0
+                14.0097038,41.4745447,0
+                14.0096468,41.4747007,0
+                14.0095648,41.4747267,0
+                14.0094618,41.4747187,0
+                14.0091538,41.4747597,0
+                14.0090408,41.4747267,0
+                14.0089108,41.4747377,0
+                14.0087368,41.4746657,0
+                14.0086168,41.4744947,0
+                14.0079768,41.4743917,0
+                14.0079288,41.4744907,0
+                14.0076248,41.4744447,0
+                14.0073868,41.4745427,0
+                14.0072778,41.4745327,0
+                14.0069658,41.4746167,0
+                14.0065518,41.4745487,0
+                14.0063178,41.4744557,0
+                14.0061638,41.4743587,0
+                14.0059938,41.4741757,0
+                14.0058738,41.4741227,0
+                14.0058628,41.4740397,0
+                14.0056588,41.4738257,0
+                14.0055858,41.4737297,0
+                14.0051578,41.4734887,0
+                14.0049278,41.4734297,0
+                14.0043008,41.4734507,0
+                14.0039198,41.4735167,0
+                14.0035888,41.4736437,0
+                14.0031028,41.4734657,0
+                14.0031958,41.4733977,0
+                14.0032648,41.4734117,0
+                14.0032938,41.4733727,0
+                14.0033008,41.4732727,0
+                14.0033588,41.4732427,0
+                14.0033428,41.4731827,0
+                14.0035448,41.4731317,0
+                14.0036748,41.4733277,0
+                14.0040618,41.4732187,0
+                14.0040698,41.4730677,0
+                14.0042028,41.4730687,0
+                14.0043358,41.4730347,0
+                14.0043418,41.4729787,0
+                14.0042338,41.4729387,0
+                14.0042058,41.4728257,0
+                14.0041788,41.4727477,0
+                14.0041188,41.4725267,0
+                14.0043788,41.4724557,0
+                14.0046098,41.4724447,0
+                14.0046518,41.4723057,0
+                14.0047678,41.4722287,0
+                14.0052088,41.4720427,0
+                14.0054508,41.4719927,0
+                14.0055278,41.4718767,0
+                14.0060308,41.4717377,0
+                14.0062088,41.4717697,0
+                14.0063598,41.4717017,0
+                14.0065168,41.4715517,0
+                14.0065708,41.4714347,0
+                14.0066468,41.4713707,0
+                14.0067388,41.4713587,0
+                14.0069018,41.4712777,0
+                14.0074508,41.4714857,0
+                14.0078638,41.4716147,0
+                14.0078658,41.4714047,0
+                14.0084838,41.4713287,0
+                14.0084738,41.4712227,0
+                14.0085188,41.4711167,0
+                14.0083808,41.4709857,0
+                14.0086548,41.4707527,0
+                14.0088068,41.4706557,0
+                14.0089598,41.4705757,0
+                14.0088318,41.4704687,0
+                14.0090078,41.4702677,0
+                14.0088578,41.4701687,0
+                14.0088798,41.4701437,0
+                14.0090108,41.4700477,0
+                14.0092608,41.4699767,0
+                14.0093678,41.4700427,0
+                14.0094328,41.4700837,0
+                14.0094738,41.4701817,0
+                14.0095488,41.4702477,0
+                14.0098078,41.4702577,0
+                14.0099808,41.4702677,0
+                14.0101528,41.4703507,0
+                14.0102618,41.4703107,0
+                14.0104038,41.4702307,0
+                14.0105128,41.4701497,0
+                14.0106978,41.4700947,0
+                14.0107848,41.4700387,0
+                14.0108828,41.4700227,0
+                14.0110778,41.4699927,0
+                14.0112288,41.4699777,0
+                14.0113058,41.4698967,0
+                14.0113178,41.4698477,0
+                14.0114808,41.4697927,0
+                14.0115668,41.4698497,0
+                14.0118158,41.4698037,0
+                14.0118918,41.4698037,0
+                14.0120108,41.4697567,0
+                14.0121528,41.4697007,0
+                14.0124878,41.4696707,0
+                14.0126408,41.4696157,0
+                14.0126858,41.4694697,0
+                14.0127848,41.4693477,0
+                14.0128308,41.4691777,0
+                14.0128108,41.4690557,0
+                14.0128888,41.4689507,0
+                14.0130318,41.4687887,0
+                14.0131618,41.4687577,0
+                14.0132398,41.4686197,0
+                14.0132628,41.4685227,0
+                14.0133938,41.4684257,0
+                14.0135558,41.4684197,0
+                14.0137088,41.4683557,0
+                14.0138398,41.4682667,0
+                14.0139928,41.4681547,0
+                14.0140698,41.4680987,0
+                14.0142528,41.4680997,0
+                14.0142538,41.4680597,0
+                14.0142998,41.4678887,0
+                14.0143988,41.4677677,0
+                14.0145398,41.4677197,0
+                14.0147778,41.4677217,0
+                14.0149518,41.4676747,0
+                14.0150068,41.4676107,0
+                14.0150628,41.4675047,0
+                14.0151608,41.4674247,0
+                14.0152378,41.4673847,0
+                14.0153878,41.4674667,0
+                14.0156148,41.4674687,0
+                14.0157018,41.4674207,0
+                14.0158758,41.4673657,0
+                14.0161038,41.4672947,0
+                14.0166358,41.4671847,0
+                14.0169698,41.4672037,0
+                14.0172518,41.4672067,0
+                14.0174348,41.4672407,0
+                14.0176728,41.4672097,0
+                14.0177598,41.4671947,0
+                14.0178148,41.4671217,0
+                14.0177848,41.4669917,0
+                14.0177848,41.4669427,0
+                14.0178618,41.4668617,0
+                14.0181558,41.4667347,0
+                14.0186098,41.4667947,0
+                14.0188148,41.4668127,0
+                14.0190638,41.4667667,0
+                14.0192718,41.4666297,0
+                14.0194258,41.4664687,0
+                14.0192548,41.4662877,0
+                14.0188068,41.4659267,0
+                14.0182728,41.4654417,0
+                14.0175158,41.4647527,0
+                14.0173888,41.4645887,0
+                14.0174758,41.4645077,0
+                14.0178348,41.4643567,0
+                14.0187598,41.4640267,0
+                14.0195278,41.4637587,0
+                14.0198628,41.4636537,0
+                14.0200648,41.4636797,0
+                14.0207348,41.4643097,0
+                14.0212258,41.4646967,0
+                14.0216188,41.4650637,0
+                14.0223618,41.4656207,0
+                14.0228028,41.4658507,0
+                14.0232838,41.4660567,0
+                14.0236998,41.4661927,0
+                14.0238668,41.4663517,0
+                14.0240758,41.4663977,0
+                14.0243488,41.4664927,0
+                14.0244248,41.4665967,0
+                14.0244568,41.4667307,0
+                14.0246088,41.4668977,0
+                14.0249168,41.4671657,0
+                14.0251308,41.4674447,0
+                14.0254118,41.4677217,0
+                14.0257118,41.4679597,0
+                14.0259638,41.4681317,0
+                14.0264008,41.4684267,0
+                14.0266038,41.4686417,0
+                14.0267898,41.4689347,0
+                14.0269738,41.4691247,0
+                14.0272698,41.4693077,0
+                14.0275608,41.4694977,0
+                14.0277308,41.4696217,0
+                14.0279488,41.4697887,0
+                14.0287538,41.4703747,0
+                14.0294888,41.4709997,0
+                14.0309308,41.4721767,0
+                14.0312298,41.4723267,0
+                14.0317288,41.4726017,0
+                14.0321748,41.4729297,0
+                14.0324578,41.4732067,0
+                14.0316848,41.4737857,0
+                14.0316218,41.4738397,0
+                14.0317028,41.4740247,0
+                14.0317728,41.4742617,0
+                14.0318678,41.4744577,0
+                14.0319188,41.4747357,0
+                14.0320398,41.4750347,0
+                14.0325598,41.4763617,0
+                14.0327538,41.4768847,0
+                14.0328248,41.4770207,0
+                14.0331568,41.4773957,0
+                14.0342408,41.4783387,0
+                14.0341728,41.4784917,0
+                14.0345128,41.4786837,0
+                14.0350388,41.4790047,0
+                14.0358758,41.4794347,0
+                14.0363048,41.4796907,0
+                14.0366468,41.4799537,0
+                14.0383748,41.4815707,0
+                14.0379448,41.4818447,0
+                14.0387588,41.4826807,0
+                14.0384728,41.4830427,0
+                14.0384548,41.4831257,0
+                14.0388168,41.4832527,0
+                14.0387048,41.4833887,0
+                14.0385088,41.4836187,0
+                14.0384298,41.4836927,0
+                14.0382898,41.4836607,0
+                14.0381918,41.4837327,0
+                14.0380808,41.4838757,0
+                14.0380618,41.4839957,0
+                14.0381818,41.4840877,0
+                14.0384828,41.4842067,0
+                14.0386698,41.4842707,0
+                14.0390188,41.4844927,0
+                14.0390988,41.4846387,0
+                14.0392698,41.4846937,0
+                14.0393688,41.4847697,0
+                14.0392358,41.4849607,0
+                14.0400148,41.4853287,0
+                14.0403438,41.4854867,0
+                14.0407288,41.4856507,0
+                14.0408658,41.4857647,0
+                14.0410938,41.4858997,0
+                14.0414348,41.4860697,0
+                14.0418448,41.4862987,0
+                14.0422748,41.4865727,0
+                14.0423858,41.4866127,0
+                14.0426258,41.4868177,0
+                14.0427468,41.4868437,0
+                14.0431909,41.4871207,0
+                14.0437859,41.4875037,0
+                14.0440809,41.4876767,0
+                14.0439439,41.4877557,0
+                14.0437659,41.4878627,0
+                14.0436209,41.4879557,0
+                14.0433809,41.4879297,0
+                14.0431659,41.4878957,0
+                14.0429579,41.4878907,0
+                14.0427888,41.4878757,0
+                14.0427468,41.4878357,0
+                14.0426828,41.4878127,0
+                14.0425498,41.4878217,0
+                14.0424018,41.4877777,0
+                14.0423168,41.4877847,0
+                14.0422108,41.4877347,0
+                14.0421218,41.4877227,0
+                14.0419918,41.4876697,0
+                14.0418928,41.4876667,0
+                14.0417688,41.4876357,0
+                14.0417458,41.4876167,0
+                14.0416698,41.4876407,0
+                14.0412508,41.4876247,0
+                14.0410458,41.4875527,0
+                14.0409908,41.4875347,0
+                14.0408708,41.4875337,0
+                14.0407928,41.4875337,0
+                14.0406618,41.4875367,0
+                14.0406088,41.4875127,0
+                14.0405718,41.4875017,0
+                14.0402248,41.4874957,0
+                14.0401288,41.4874707,0
+                14.0399738,41.4874287,0
+                14.0398678,41.4874027,0
+                14.0397738,41.4873767,0
+                14.0396408,41.4873307,0
+                14.0391398,41.4888247,0
+                14.0376488,41.4884737,0
+                14.0360678,41.4890677,0
+                14.0347778,41.4894277,0
+                14.0328628,41.4913617,0
+                14.0278238,41.4964467,0
+                14.0278188,41.4964537,0
+                14.0275408,41.4964167,0
+                14.0271138,41.4963137,0
+                14.0268848,41.4962147,0
+                14.0268388,41.4961947,0
+                14.0267078,41.4961387,0
+                14.0261648,41.4956937,0
+                14.0259328,41.4955607,0
+                14.0258298,41.4955017,0
+                14.0254028,41.4953717,0
+                14.0250448,41.4953067,0
+                14.0247248,41.4952647,0
+                14.0246848,41.4952587,0
+                14.0241208,41.4952437,0
+                14.0241018,41.4952407,0
+                14.0234888,41.4951587,0
+                14.0229268,41.4950167,0
+                14.0224978,41.4949317,0
+                14.0220088,41.4947597,0
+                14.0215808,41.4946387,0
+                14.0211028,41.4944617,0
+                14.0207218,41.4943347,0
+                14.0207048,41.4943247,0
+                14.0203428,41.4941207,0
+                14.0199268,41.4938557,0
+                14.0195928,41.4936407,0
+                14.0192128,41.4933737,0
+                14.0186698,41.4928937,0
+                14.0184128,41.4926207,0
+                14.0182728,41.4922037,0
+                14.0183118,41.4920527,0
+                14.0183398,41.4919447,0
+                14.0185578,41.4916737,0
+                14.0187398,41.4914677,0
+                14.0191148,41.4912847,0
+                14.0198118,41.4910927,0
+                14.0203528,41.4909967,0
+                14.0208438,41.4909567,0
+                14.0211838,41.4909067,0
+                14.0213608,41.4908807,0
+                14.0224648,41.4906747,0
+                14.0229828,41.4905977,0
+                14.0233178,41.4905207,0
+                14.0236688,41.4904057,0
+                14.0239448,41.4902277,0
+                14.0240748,41.4901077,0
+                14.0241408,41.4900477,0
+                14.0242888,41.4898697,0
+                14.0243598,41.4897457,0
+                14.0244318,41.4896337,0
+                14.0245688,41.4893937,0
+                14.0247418,41.4890717,0
+                14.0247958,41.4886907,0
+                14.0247058,41.4882587,0
+                14.0246868,41.4879437,0
+                14.0246198,41.4876187,0
+                14.0244818,41.4872597,0
+                14.0243158,41.4870847,0
+                14.0241298,41.4868877,0
+                14.0236688,41.4863497,0
+                14.0235518,41.4861617,0
+                14.0233158,41.4858887,0
+                14.0232008,41.4855647,0
+                14.0231728,41.4855037,0
+                14.0230288,41.4851937,0
+                14.0228528,41.4849317,0
+                14.0227278,41.4844417,0
+                14.0226608,41.4840077,0
+                14.0225378,41.4836127,0
+                14.0224228,41.4832127,0
+                14.0222628,41.4829057,0
+                14.0222118,41.4828077,0
+                14.0219178,41.4824067,0
+                14.0216488,41.4820267,0
+                14.0213528,41.4817647,0
+                14.0209258,41.4814277,0
+                14.0206668,41.4812457,0
+                14.0203348,41.4809817,0
+                14.0199808,41.4807447,0
+                14.0194818,41.4805147,0
+                14.0190028,41.4804367,0
+                14.0184998,41.4804357,0
+                14.0179718,41.4804997,0
+                14.0173698,41.4806837,0
+                14.0169778,41.4812317,0
+                14.0166618,41.4815517,0
+                14.0163598,41.4817587,0
+                14.0160688,41.4820147,0
+                14.0154008,41.4824797,0
+                14.0147098,41.4830957,0
+                14.0144538,41.4834267,0
+                14.0142588,41.4835787,0
+                14.0138718,41.4837987,0
+                14.0133648,41.4840907,0
+                14.0129038,41.4843677,0
+                14.0124698,41.4846787,0
+                14.0121888,41.4849927,0
+                14.0118298,41.4851797,0
+                14.0113468,41.4852097,0
+                14.0108468,41.4851327,0
+                14.0104518,41.4850597,0
+                14.0099508,41.4849287,0
+                14.0092348,41.4846757,0
+                14.0085808,41.4845467,0
+                14.0081938,41.4845777,0
+                14.0077638,41.4846997,0
+                14.0073728,41.4849147,0
+                14.0070728,41.4850987,0
+                14.0066988,41.4852597,0
+                14.0063408,41.4852297,0
+                14.0059718,41.4851827,0
+                14.0055408,41.4850627,0
+                14.0051838,41.4849027,0
+                14.0048758,41.4846777,0
+                14.0046618,41.4845017,0
+                14.0045428,41.4843947,0
+                14.0043618,41.4846097,0
+                14.0040978,41.4846707,0
+                14.0039048,41.4847377,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>link alle aziende del territorio</name>
+        <description><![CDATA[descrizione: <br>Area ha: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Area ha">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0158787,41.4719891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Usi del suolo tradizionali</name>
+      <Placemark>
+        <name>Seminativo con olivo</name>
+        <description>Un seminativo è un terreno destinato alla semina per la coltivazione di specie erbacee da orto, cereali o foraggere per l’alimentazione del bestiame.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0158505,41.4685893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seminativo con olivo</name>
+        <description>Un seminativo è un terreno destinato alla semina per la coltivazione di specie erbacee da orto, cereali o foraggere per l’alimentazione del bestiame.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0230833,41.469858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto a sesto irregolare</name>
+        <description><![CDATA[Il sesto d’impianto rappresenta la distanza di collocazione tra una pianta ed un'altra. Nel sesto irregolare le piante sono collocate a distanze non omogenee sia nella fila sia sul filare, tipico esempio di gestione non intensiva del suolo. ]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0206049,41.4681094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveti a sesto irregolare</name>
+        <description><![CDATA[Il sesto d’impianto rappresenta la distanza di collocazione tra una pianta ed un'altra. Nel sesto irregolare le piante sono collocate a distanze non omogenee sia nella fila sia sul filare, tipico esempio di gestione non intensiva del suolo. ]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0192864,41.4714633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto a sesto regolare</name>
+        <description>Nel sesto d’impianto regolare (quadrato o rettangolare), le piante sono collocate in filari paralleli, distanti tra loro alcuni metri, formando, di conseguenza, una griglia geometrica.</description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0228096,41.467205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto terrazzato</name>
+        <description><![CDATA[Quando le pendenze del terreno diventano elevate (superiori al 15%) e la coltivazione diventa difficile, si procede alla modifica del versante tramite la realizzazione di terrazzamenti, o gradoni, che sono dei veri e propri ripiani sostenuti da muretti a secco o da scarpate erbose (ciglione).<br>Svolgono una funzione di tutela del suolo, aumentando la stabilità dei versanti, favorendo il deflusso delle acque e contrastando l’erosione.]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0201402,41.4777928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto terrazzato</name>
+        <description><![CDATA[Quando le pendenze del terreno diventano elevate (superiori al 15%) e la coltivazione diventa difficile, si procede alla modifica del versante tramite la realizzazione di terrazzamenti, o gradoni, che sono dei veri e propri ripiani sostenuti da muretti a secco o da scarpate erbose (ciglione).<br>Svolgono una funzione di tutela del suolo, aumentando la stabilità dei versanti, favorendo il deflusso delle acque e contrastando l’erosione.]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            14.0217199,41.4743122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto storico</name>
+        <styleUrl>#icon-1587-AFB42B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.0335866,41.4795043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliveto storico</name>
+        <styleUrl>#icon-1587-AFB42B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.0298465,41.4723128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olivi monumentali</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoxSvrwu61a75CcbCOctjXwV0rIS6NEnTNscQOAVCbuXv4CpISAiRuOKLLIcdWPESvBatTBgb4D7ktBWubh3Gm2_sC2rQgFZaD6RKv4ypIx2FQfb32QevufsXbxKKiIOOiatgfLw-IMgBsQazBBJp-ttuhHdN2gH-_SDEyw6c5jbO79UDa-dl-ZediOrU_TkM-z-9DpWz0EeBytmq1z89F7hj1kMe625vZ-LLEVFhNVTcRQjz6BwZyBsfk?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il paesaggio olivicolo di Venafro è unico anche per la presenza di un gran numero di olivi monumentali. Il Parco Regionale dell'Olivo di Venafro ha condotto un censimento degli olivi monumentali individuando 166 piante. Di ogni pianta sono stati rilevati i dati catastali, le coordinate GPS, i parametri dimensionali (diametro e altezza), l'altitudine, l'ambiente, il valore ecologico, storico culturale e paesaggistico.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqQLAlPFOVik45NRIwsj11xRNMEuZpwsFLn5DD4l6djln2vtcSVRLnNbpScsT6w2u_ZOWFm01aaHoTzhn-naP1otpamZ6AKTyeuvcFaVFQEK3_mqnznK34y_lrOOgVF2e5SsiQf8XmtddvrXM-6jgv0JOMkzVfsa2gIuR94SIawgLJ-r8wi__EBJhI5a0dIwbx7BdDavYTfCuRc-GLOU8DhMjZKbeIXJx66TkVgsNMAymOI5DzR59Os9lg?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1587-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoxSvrwu61a75CcbCOctjXwV0rIS6NEnTNscQOAVCbuXv4CpISAiRuOKLLIcdWPESvBatTBgb4D7ktBWubh3Gm2_sC2rQgFZaD6RKv4ypIx2FQfb32QevufsXbxKKiIOOiatgfLw-IMgBsQazBBJp-ttuhHdN2gH-_SDEyw6c5jbO79UDa-dl-ZediOrU_TkM-z-9DpWz0EeBytmq1z89F7hj1kMe625vZ-LLEVFhNVTcRQjz6BwZyBsfk?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqQLAlPFOVik45NRIwsj11xRNMEuZpwsFLn5DD4l6djln2vtcSVRLnNbpScsT6w2u_ZOWFm01aaHoTzhn-naP1otpamZ6AKTyeuvcFaVFQEK3_mqnznK34y_lrOOgVF2e5SsiQf8XmtddvrXM-6jgv0JOMkzVfsa2gIuR94SIawgLJ-r8wi__EBJhI5a0dIwbx7BdDavYTfCuRc-GLOU8DhMjZKbeIXJx66TkVgsNMAymOI5DzR59Os9lg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0372719,41.4842814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sistemazioni idraulico agrarie</name>
+      <Placemark>
+        <name>Muretti a secco</name>
+        <description><![CDATA[Strutture in pietra realizzate senza uso di leganti o malte, secondo tecniche che si tramandano da generazioni di agricoltori. Tali elementi del paesaggio sono riconosciuti Patrimonio dell’Umanità: “svolgono un ruolo vitale nella prevenzione delle slavine, delle alluvioni, delle valanghe, nel combattere l'erosione e la desertificazione delle terre, migliorando la biodiversità e creando le migliori condizioni microclimatiche per l'agricoltura”.]]></description>
+        <styleUrl>#icon-1702-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            14.0330173,41.480128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Terrazzamenti de "Le Noci"]]></name>
+        <description>Dalla frazione Le Noci si diparte un sentiero che nei primi duecento metri conserva terrazzamenti perfettamente conservati, interrotti da almeno due grandi slarghi delimitati da muri a secco che facilitavano lo spostamento delle mandrie. A quest’area, ancora ricca di antichi muri a secco e caratterizzata da un paesaggio roccioso aspro, è legato l’antico rito della transumanza, praticato dai pastori che, con le greggi di ovini, raggiungevano, nel periodo estivo, le Mainarde ed in particolare “Valle Venafrana” e Monte Cavallo. Un viaggio lungo e faticoso di almeno due giorni di cammino. </description>
+        <styleUrl>#icon-1702-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            14.0066284,41.4740445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Edifici rurali storici</name>
+    </Folder>
+    <Folder>
+      <name>Produzioni tipiche locali</name>
+      <Placemark>
+        <name>Olive da olio</name>
+        <description>La maggior parte dell’olivicoltura si basa su una cultivar unica, autoctona di Venafro, detta Aurina. Si tratta di una varietà, identificabile con l’antica Licinia dei Romani, caratterizzata da un frutto nero e dalla produzione di un olio di colore giallo oro. Oltre alla cultivar Aurina, sono presenti anche altre varietà antiche tra cui la Pallante, l’Olivastro dritto, l’Olivastro d’Aprile, la Rotondella e la Rossuola</description>
+        <styleUrl>#icon-1582-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            14.0248332,41.4800055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Aspetti geomorfologici</name>
+      <Placemark>
+        <name>Aspetti geomorfologici</name>
+        <description><![CDATA[Gli oliveti si spingono dalla pianura sino alle propaggini delle pareti scoscese, spesso su terreni sassosi e in forte pendenza, su Dolomie cristalline neritiche e di piattaforma e calcari marnosi detritici di scarpata, e depositi alluvionali alle quote inferiori. Sono posti ai margini del complesso montuoso del Monte Sammucro, del Monte Santa Croce e del Monte Corno, in un’altitudine compresa tra i 150 e i 600 metri s.l.m. e sono ben visibili dalla Piana di Venafro. <br><br>IMPORTANTE: la localizzazione dell'icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1720-097138</styleUrl>
+        <Point>
+          <coordinates>
+            14.0272472,41.4756575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Altri luoghi d'interesse]]></name>
+      <Placemark>
+        <name>Castello di Pandone e Museo Nazionale</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpZzaFXzc697ChwtIib_1a0kgUo_-D6lkJ4PvPy0Zmx70kexunesDAhNGe2SRtF1ixdRenSFV2N-PTEYWDgepqTU1k0WSVepetUqhlAmreXFuPYFpaGioXPm2K4WZ6eVPPlqOdxrhunuA-2-CxBfV4vbRfgSg1NB-Dg_5xLaTGGxaAsrbKl2kHtQF9exzbWcPfuAIC4n2U3_GoNnfxbTeJf0MlQJJ0vPFvJkgq1cJi5-KtT3_ywiSDJd9o?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Castello medioevale molto ben conservato. Prende il nome dalla famiglia che lo eresse. Enrico Pandone era un conte appassionato di cavalli. All'interno della struttura si possono infatti osservare affreschi raffiguranti cavalli a grandezza naturale con iscrizioni dettagliate del nome, razza e a chi era stato venduto o donato. Il castello ospita inoltre una pinacoteca nazionale.      https://www.musei.molise.beniculturali.it/musei?mid=214&nome=museo-nazionale-di-castello-pandone<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrouerc7NoL3VqFEWpPyyHhR6xZTWNXVm-NnKWfqpyIjiCVhEIYWEh1_rlcCi98gptJs9KJVR11hwa8L1VUUt8OzID_CPH8J4_Os_mU9nYY26D13xvcA_eoC_7poEx-9j53YcyLpMjfA7u8mnQoCUZpLzEiGGV_9hjVX2uqsUSHmUc62ypBtJRFsqEZsxP3nOPR7vixZFm8HU6dcYzFU_rF0gCsNTavywKmn1Dvd9d8mTGNzVozpvifpAQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrwvbJd7KDcpGtp_mEOfKGWP2_EnyQfRqY3SgtbXVpZtaXdn6ZOGLDZjxr3qFffo-dGj4T02TDs_7XNHLc78UvjDSQ0BlBmqiZoegnC1lDRCUuLtP_RjOwegGsB-Tcshoy3v18Cga-Iq6lWGSNIFG_Vu7UCBxE61mc0Em_gNddDv3aFOiRJDyIEyAQKs-LFtDFLK_qBhHCuc29tEzFOHe1unrSZLU0RJXdvaopT1sFJP3bOl2QFBkeTHYk?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpZzaFXzc697ChwtIib_1a0kgUo_-D6lkJ4PvPy0Zmx70kexunesDAhNGe2SRtF1ixdRenSFV2N-PTEYWDgepqTU1k0WSVepetUqhlAmreXFuPYFpaGioXPm2K4WZ6eVPPlqOdxrhunuA-2-CxBfV4vbRfgSg1NB-Dg_5xLaTGGxaAsrbKl2kHtQF9exzbWcPfuAIC4n2U3_GoNnfxbTeJf0MlQJJ0vPFvJkgq1cJi5-KtT3_ywiSDJd9o?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrouerc7NoL3VqFEWpPyyHhR6xZTWNXVm-NnKWfqpyIjiCVhEIYWEh1_rlcCi98gptJs9KJVR11hwa8L1VUUt8OzID_CPH8J4_Os_mU9nYY26D13xvcA_eoC_7poEx-9j53YcyLpMjfA7u8mnQoCUZpLzEiGGV_9hjVX2uqsUSHmUc62ypBtJRFsqEZsxP3nOPR7vixZFm8HU6dcYzFU_rF0gCsNTavywKmn1Dvd9d8mTGNzVozpvifpAQ?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrwvbJd7KDcpGtp_mEOfKGWP2_EnyQfRqY3SgtbXVpZtaXdn6ZOGLDZjxr3qFffo-dGj4T02TDs_7XNHLc78UvjDSQ0BlBmqiZoegnC1lDRCUuLtP_RjOwegGsB-Tcshoy3v18Cga-Iq6lWGSNIFG_Vu7UCBxE61mc0Em_gNddDv3aFOiRJDyIEyAQKs-LFtDFLK_qBhHCuc29tEzFOHe1unrSZLU0RJXdvaopT1sFJP3bOl2QFBkeTHYk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0452219,41.4883242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anfiteatro Romano </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp0B5s34AumeK3RsJO9K0GARAmvvyDV-vVHqVrNIkj6nOPI2p5nrpeFl_bDGi-NpgajGUqwCRI6V1pRZbnYQukhtOilIn8bUfaON15kkmAeamblN8DDVpSTYHbfU9VtnTy829OaqzVIQdZO9TkxrihT1U6xEfN1jWT3xGbtDv0NqVYI-EphMLcC3xUglPqvlpGBZfH78cEJgbeIchFK4ZqgC9c88PBxi6irsIq3Ix_aik493B2zyeBIza8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Sito archeologico, testimonianza di un antico anfiteatro romano risalente al I secolo a.c., della struttura originaria rimangono alcune parti delle fondamenta mentre tutto il resto risale al medioevo; le gradinate furono distrutte e le pietre furono utilizzate per la realizzazione di strutture abitative, rimesse per attrezzi e stalle. Interessante è il nome con il quale è chiamato l’Anfiteatro, il Verlascio da perilasium, fusione dei termini greci "perì" (intorno) ed "elao" (girare), localizzato più in basso presso l’attuale Via Colonia Giulia. <br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp84MhOBic-pqX4IrHF_dEle-Ha2G0bv3YDbU_PeFoCf_sUMRtQ6TLaSvCrTJJmff4qNhkPyQDHmJnGOHZOJBGpitpQXTn26p3k0C9rD8DJ-PvOlETvgj2d7fA0f_BrK2jWqMX0sXLZgurzLYQxj-tQNo0bhVOgDur83SW-bJY1lsBoTgxa1xKtyrP2sTfLm3FHR6BEwcgOlIEXpXmfKys1RnBP6psWutaJNnG2NrxdkvK1O_uoaI3DtaM?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp0B5s34AumeK3RsJO9K0GARAmvvyDV-vVHqVrNIkj6nOPI2p5nrpeFl_bDGi-NpgajGUqwCRI6V1pRZbnYQukhtOilIn8bUfaON15kkmAeamblN8DDVpSTYHbfU9VtnTy829OaqzVIQdZO9TkxrihT1U6xEfN1jWT3xGbtDv0NqVYI-EphMLcC3xUglPqvlpGBZfH78cEJgbeIchFK4ZqgC9c88PBxi6irsIq3Ix_aik493B2zyeBIza8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp84MhOBic-pqX4IrHF_dEle-Ha2G0bv3YDbU_PeFoCf_sUMRtQ6TLaSvCrTJJmff4qNhkPyQDHmJnGOHZOJBGpitpQXTn26p3k0C9rD8DJ-PvOlETvgj2d7fA0f_BrK2jWqMX0sXLZgurzLYQxj-tQNo0bhVOgDur83SW-bJY1lsBoTgxa1xKtyrP2sTfLm3FHR6BEwcgOlIEXpXmfKys1RnBP6psWutaJNnG2NrxdkvK1O_uoaI3DtaM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0463881,41.482729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo - Concattedrale di Santa Maria Assunta</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp_0-iuerdnhb0W_b9MMAsUDLsAkelXb7xc2IW3zCz6_1E4kjdKFjZWEpw41dKI3bfK1U5Q_ZvfIx7loF0N_15A9kwxL5ASq-Tq1aADdGIwaf6orQOPlw0NM-UsrwTTXmFCjS_TFLa3wxho1hi51A2haNWKIWojT3vbj_GmP1mtDbyg7-VAfZYwffuMTqPvwPp1GSnFqNmia3pfu8JoUJs3yOGzrwemItnumvTHGiH1YS2gpMqfTi9nZr8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Edificata dove prima sorgeva un antico tempio pagano, risale al V secolo e fu costruita sotto il Vescovo Costantino con materiali provenienti da altri monumenti di epoche precedenti. Dopo secoli di abbandono, l'edificio fu ricostruito nella seconda metà dell'XI secolo dal Vescovo Pietro di Ravenna, ma anche questa nuova costruzione fu prima depredata di ogni bene dalle truppe di Federico II, poi fu danneggiato dai terremoti nel 1349 e nel 1495. Tra la fine del '600 e per tutto il '700 la chiesa fu abbellita in stile barocco, per essere nuovamente riconsacrata il 21 ottobre 1764 dal Vescovo Francesco Saverio Stabile. L'aspetto attuale invece è dovuto ai restauri degli anni '60 e '70 del secolo scorso che hanno restituito alla cattedrale l'antico assetto gotico medievale con l'eliminazione delle forme barocche.]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp_0-iuerdnhb0W_b9MMAsUDLsAkelXb7xc2IW3zCz6_1E4kjdKFjZWEpw41dKI3bfK1U5Q_ZvfIx7loF0N_15A9kwxL5ASq-Tq1aADdGIwaf6orQOPlw0NM-UsrwTTXmFCjS_TFLa3wxho1hi51A2haNWKIWojT3vbj_GmP1mtDbyg7-VAfZYwffuMTqPvwPp1GSnFqNmia3pfu8JoUJs3yOGzrwemItnumvTHGiH1YS2gpMqfTi9nZr8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0381939,41.4837276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di Monte Vergine</name>
+        <description><![CDATA[E' una chiesa, ad unica navata, ubicata su un terrazzamento nei pressi di un sentiero usato dai pastori e risalente al 1200. Oggi è un rudere, restano soltanto i muri laterali e  si possono osservare i resti dell’altare principale e di due altari laterali. Tutti gli stucchi sono caduti ma restano alcune porzioni ancora dipinte.]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.0426881,41.490015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Madonna della Libera e Mura ciclopiche</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkov9p8Nmx_jjDt_sX9c3DQEMbp9qIqIwDZtC4F7O0jORyLfTavaOjbXCsGVNpo3wpxLsXsSiSPIVCqI2qiIQDs5Gajm3ySbj862Hpg2k_kxE0BZNrjtkrLzPmuZFiRKjPkXGmmAghuPfQd9Gw15rG_hrRySbwCiw_9BzRnzITTBev8Kn77I-KEAQmPpD9GlotZk65-V47LXNMH9a9bv4nr6xC8ps90KJUOQ0ZrqZMsYYAOhcx7xK2eB8v0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Ruderi di un'antica chiesa rurale immersa tra gli olivi. Sono ancora visibili i resti dell'altare con l'immagine della Madonna. A Libera, figlia di Cerere, venne dedicato il tempio, trasformato poi in piccola chiesa ed eretto dai primi cristiani. La chiesa è ubicata tra gli olivi di un’area terrazzata  mediante muri a blocchi poligonali nella tradizione venafrana. Risalenti al IV sec. a.c. fecero parte, successivamente, di una villa rustica romana di epoca sillana che alcuni autori riferiscono alla proprietà di Catone il Censore a Venafro. Fanno parte di un complesso sistema di terrazzamenti con blocchi di calcare che possono raggiungere l'altezza anche di 1,80 m.]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkov9p8Nmx_jjDt_sX9c3DQEMbp9qIqIwDZtC4F7O0jORyLfTavaOjbXCsGVNpo3wpxLsXsSiSPIVCqI2qiIQDs5Gajm3ySbj862Hpg2k_kxE0BZNrjtkrLzPmuZFiRKjPkXGmmAghuPfQd9Gw15rG_hrRySbwCiw_9BzRnzITTBev8Kn77I-KEAQmPpD9GlotZk65-V47LXNMH9a9bv4nr6xC8ps90KJUOQ0ZrqZMsYYAOhcx7xK2eB8v0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0306567,41.4836602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sede dell'Ente Parco]]></name>
+        <description><![CDATA[La sede dell'Ente, sita presso il Palazzo Liberty ospita una mostra dedicata al Paesaggio rurale storico del Parco e alla pratiche agricole tradizionali.]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.0423866,41.4836044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Winterline</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpaF20x7IlozThf62co8xYEqAW4vkCpvkFVhwqTTEIfXmfi1wi8I6XQLrJUkiKk0UJlnHj_yRTPYeKguoqM6rnqwbDmdQ8en8RqeMov6gVM51_W4p96RZLDhgPt9U28F-VzvcW842E7jMdVLWyB-YxSOr8pqO0DtFrg2vW64Cf04NjYEUVXwmEgr25xNaJi6iTz-mT9N38K_BWrP9tMHw6Ty7d6o6oWfPP6m-0wqtI2yVryYbh2miwjxG8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il Museo WinterLine è un museo storico-militare italiano situato a Venafro, dedicato alla storia della Winter Line, ovvero la linea fortificata difensiva approntata dai tedeschi nell'inverno del 1943<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoeNRwaeMV2LUty_S5HbVwRSXhMxuGeqLBPtNURcUWCkOVpfCTA-deriZN8LRuTNt944c2l1r1yS-jbc1VxeLciOLXhNh2rMJEi9vgJN6Qj_B1PHCxBgtTDEH_mQMns93gr4_jAsm8kgGAfxqKElnDOVfroXYidJ4yktoutEwXHboSj1fR8zRnQCKg-ueMuWKj2XTq-NXbbYWcjXiKoUJLWQA3QgpcXNF9ggDy0AekEa3crPDy6fCFecUM?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpaF20x7IlozThf62co8xYEqAW4vkCpvkFVhwqTTEIfXmfi1wi8I6XQLrJUkiKk0UJlnHj_yRTPYeKguoqM6rnqwbDmdQ8en8RqeMov6gVM51_W4p96RZLDhgPt9U28F-VzvcW842E7jMdVLWyB-YxSOr8pqO0DtFrg2vW64Cf04NjYEUVXwmEgr25xNaJi6iTz-mT9N38K_BWrP9tMHw6Ty7d6o6oWfPP6m-0wqtI2yVryYbh2miwjxG8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoeNRwaeMV2LUty_S5HbVwRSXhMxuGeqLBPtNURcUWCkOVpfCTA-deriZN8LRuTNt944c2l1r1yS-jbc1VxeLciOLXhNh2rMJEi9vgJN6Qj_B1PHCxBgtTDEH_mQMns93gr4_jAsm8kgGAfxqKElnDOVfroXYidJ4yktoutEwXHboSj1fR8zRnQCKg-ueMuWKj2XTq-NXbbYWcjXiKoUJLWQA3QgpcXNF9ggDy0AekEa3crPDy6fCFecUM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0447368,41.4866464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Torricella</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp60-uU2nJg64tkt2R6hIMS-Hc-m61esimFeHZgSnem62my1A7rqt3dSksHxYgrc3eEx3_im9e5Wjz-NyvH_lxLz7gP2tIfB1slBHdU3RVOu8vZ7xyoLfKhdTqtIIEEChTWUV4aLVt0VpcWi-XyE3Bl0ITtfRPbzh-Y9RE_LWX5Sf8VEpd7ggaK023rND0ozh9RcepsXKz0plYGBeWIy-6JhdtjEfG-RA2_Rql28JYzzxrTCrYDczWhWFY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Da almeno un millennio la Torricella (437 s.l.m.) si erge su uno sperone di roccia sovrastante Venafro, costituendo un elemento essenziale del paesaggio. Faceva parte di un complesso sistema di avvistamento e di controllo della pianura del Volturno. Nel sito insistono anche murature antiche del I secolo avanti Cristo. Solo in epoca longobarda, intorno al mille, la Torricella acquisì una forma organica tale da poter ospitare per lungo tempo gli uomini che la utilizzavano.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkodmmKfvdNlXbE2VCdMGNSafMSTiCG6bWLEjln85b8pIS5H-b9CqBCu9KOOd8JDVyvFx9lHokpgBT2qc7bCptE4espuR0LInNq3U4_5jbhliVmpNdFTXIkLrY673XqWbMbwBYwle8Q07Fivq7J6_aJUvKBOSUSwqeE2NfXjZ0ondAJxjLnW167U75JnEDHxHrwD7Fx4tKoAhRRMpQrYasoLw9R6hDgKOYnJ2tpECw7tcbjBADF-Pd0_n_s?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoizivCUdBGqW4r18bzmiJkJ9IMyXlrAkKSfzEgL5KWytMzUnt5bRSQMbs7a5KtSRNhp8UZk1zjmHl2dc_fFCbRuYVbjqblKXLqNxGlo_M-3zeh0EdF17ECAGhqN4os8sySjzJklnSay4yftf6bS1P5V3oXnzA1JA5_sbZud1PR4knXZQQSKUf93uSAqQL-NWXRb0ecDbJq4VmNcOXEVczafqWzbDSH5K57XQsxXdLuHL7fhZamfQ-aZ8Y?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp60-uU2nJg64tkt2R6hIMS-Hc-m61esimFeHZgSnem62my1A7rqt3dSksHxYgrc3eEx3_im9e5Wjz-NyvH_lxLz7gP2tIfB1slBHdU3RVOu8vZ7xyoLfKhdTqtIIEEChTWUV4aLVt0VpcWi-XyE3Bl0ITtfRPbzh-Y9RE_LWX5Sf8VEpd7ggaK023rND0ozh9RcepsXKz0plYGBeWIy-6JhdtjEfG-RA2_Rql28JYzzxrTCrYDczWhWFY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkodmmKfvdNlXbE2VCdMGNSafMSTiCG6bWLEjln85b8pIS5H-b9CqBCu9KOOd8JDVyvFx9lHokpgBT2qc7bCptE4espuR0LInNq3U4_5jbhliVmpNdFTXIkLrY673XqWbMbwBYwle8Q07Fivq7J6_aJUvKBOSUSwqeE2NfXjZ0ondAJxjLnW167U75JnEDHxHrwD7Fx4tKoAhRRMpQrYasoLw9R6hDgKOYnJ2tpECw7tcbjBADF-Pd0_n_s?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkoizivCUdBGqW4r18bzmiJkJ9IMyXlrAkKSfzEgL5KWytMzUnt5bRSQMbs7a5KtSRNhp8UZk1zjmHl2dc_fFCbRuYVbjqblKXLqNxGlo_M-3zeh0EdF17ECAGhqN4os8sySjzJklnSay4yftf6bS1P5V3oXnzA1JA5_sbZud1PR4knXZQQSKUf93uSAqQL-NWXRb0ecDbJq4VmNcOXEVczafqWzbDSH5K57XQsxXdLuHL7fhZamfQ-aZ8Y?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0387471,41.4899668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Giardino degli Olivi Patriarchi d'Italia]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp22Pkxtxaqec3dd94V60Za3gs9F3lub2ao5HWARn_OXBqfjzWSx0M4w4mjOiwNnUdoqt9M9e5CmCG9G97FocIto5_LBY1ClghNBDr-r961oHC_lvdd0rSxlPeRusSNBoh58_3XhHAGLCPjtnZ8hdrBr0QT_DV6KEqxRhQRuR4UJns19tYSVVDNvwXdI2vODrJQnD2SAfDM5AuOXyWDtva4vNA83XCjNe95do4YEJMJS5JFg6zhh_V1Zfw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il Giardino degli Olivi patriarchi d’Italia, raccoglie venti essenze, gemelle degli olivi più vetusti d’Italia, una per Regione. Una vera banca del genoma dell’antica olivicoltura italiana. Sono presenti in loco, in uno spazio opportunamente segnalato da tabelle didattiche e protetto da una staccionata, gemelli dal punto di vista genetico di olivi millenari italiani molto famosi, tra cui l’Olivo di Sant’Emiliano di Trevi, l’Olivo millenario sardo “Sa Reina” e l’Olivo della Strega di Magliano in Toscana.<br>Il Punto è anche paesaggistico in quanto si domina il profilo di Santa Croce, con il suo sistema difensivo di epoca sannita con tre aree fortificate inglobate l’una nell’altra, che si continua con lo skyline del Centro storico di Venafro connotato dal Castello e i campanili delle Chiese dell’Annunziata e di Cristo.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqslik1nrplIbRBvc2VzHhpX7IO20PnUXJ-XUca0xWYachfgi7NCUajouwrQdYivStroVXeBZKnerkPt3bH9OfgoxmcOncDOZC6L4B48mUnEJDLP2xeRUKUl0FtLAxm5JOMl0yh3VGYc72hkWcrpd0v1wT-sk6M-vTxT8_06UT-uCNo3I0Qvw9rPtEGc2Mjgaazqho_Mq_Dnbu8GpnI3eN2XxRXpP7vN5dGaNkFe6LOjPDBiHbpJnLBtao?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkp22Pkxtxaqec3dd94V60Za3gs9F3lub2ao5HWARn_OXBqfjzWSx0M4w4mjOiwNnUdoqt9M9e5CmCG9G97FocIto5_LBY1ClghNBDr-r961oHC_lvdd0rSxlPeRusSNBoh58_3XhHAGLCPjtnZ8hdrBr0QT_DV6KEqxRhQRuR4UJns19tYSVVDNvwXdI2vODrJQnD2SAfDM5AuOXyWDtva4vNA83XCjNe95do4YEJMJS5JFg6zhh_V1Zfw?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkqslik1nrplIbRBvc2VzHhpX7IO20PnUXJ-XUca0xWYachfgi7NCUajouwrQdYivStroVXeBZKnerkPt3bH9OfgoxmcOncDOZC6L4B48mUnEJDLP2xeRUKUl0FtLAxm5JOMl0yh3VGYc72hkWcrpd0v1wT-sk6M-vTxT8_06UT-uCNo3I0Qvw9rPtEGc2Mjgaazqho_Mq_Dnbu8GpnI3eN2XxRXpP7vN5dGaNkFe6LOjPDBiHbpJnLBtao?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.037486,41.4835295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ville rustiche e cisterne</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkr-ec_aaH7Gui1PNeiW0ZHTGc3wMjSEHvPvZOaHFyot7am-5yFIVPJRI_ipL1k1Tuwm23zur6x9n4gBbbNWgLEfNP9-JM5Q9mSAkvajb35kiBxyt9vWucUfY51uzd_4oFTE4fmHVJwJqfHVpx2hocOcEug9xMfoiQ1J-mrLo7tGrUckZErqAQ9jTo8e4iW-OP3AJAYWvYteJv6IubB4IuHjnBLT1qJl5xaEELnJFJWitJl2Iy-wT9ZRQjI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il territorio di Venafro è caratterizzato dalla presenza di ville rustiche adibite allo sfruttamento agricolo, per la produzione del grano, di vino e soprattutto dell’olio. <br>Il Parco comprende numerosi siti di interesse archeologico, molti dei quali costituiti da ambienti voltati, in muratura, per lo più interrati, riconducibili a strutture di età romana, quali cisterne con funzione di raccolta delle acque piovane, criptoportici o ambienti funzionali all’agricoltura. <br>Questi rinvenimenti permettono di riconoscere un sistema di fattorie e ville rustiche di medie e grandi dimensioni, attestato per lo più nella fascia pedemontana, funzionali all’attività produttiva legata ai vasti oliveti. Nel II secolo a.C. Marco Porcio Catone, detto il Censore, possedeva una villa rustica con oliveti ed un trapetum a Venafro.<br>Il sistema viario di accesso alle ville doveva avere come direttrice principale l’importante asse stradale rappresentato dalla diramazione della Via Latina, che da Ad Flexum risaliva il Passo dell’Annunziata Lunga (a quota 440 m.) per poi ridiscendere a Venafrum e inoltrarsi nel Sannio. ]]></description>
+        <styleUrl>#icon-1603-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkr-ec_aaH7Gui1PNeiW0ZHTGc3wMjSEHvPvZOaHFyot7am-5yFIVPJRI_ipL1k1Tuwm23zur6x9n4gBbbNWgLEfNP9-JM5Q9mSAkvajb35kiBxyt9vWucUfY51uzd_4oFTE4fmHVJwJqfHVpx2hocOcEug9xMfoiQ1J-mrLo7tGrUckZErqAQ9jTo8e4iW-OP3AJAYWvYteJv6IubB4IuHjnBLT1qJl5xaEELnJFJWitJl2Iy-wT9ZRQjI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0196888,41.4716593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teatro Romano</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrXI5-A3a85AyXr-me8BYipp64q3mw5OrYepGgHOKs1YBKqpRlzO1jcRZpP_SvnoeQp-a1hDFS1mx9xwYr6O-qxGHWTpj7ZszhrsSdoocUIiVO220lFnz-8GslHawMxGgKNfZeIXHBqHEtWN3ophsyyJ0WfNVcZqbIikJa91kP1XFH6CByeDe03yYuFduirX9O97T3Ryh-AseCwWBMtNNgiqW5oaX-aafDNt79OihnakOMk8x3iRZwJWKQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Il Teatro romano costituisce assieme all’Anfiteatro, la vestigia romana più rappresentativa del comprensorio, situato immediatamente all’esterno dell’impianto urbanistico ortogonale romano e realizzato tra il I ed il II sec. d.c. L’ampliamento del I secolo con la costruzione dei tribunalia e della summa cavea, lo rese tra i più grandi teatri romani esistenti. Il teatro fu in gran parte smontato e riutilizzato a seguito del terribile terremoto del 346 d.c. ed in epoca medievale; oggi il centro storico della città testimonia questo rimaneggiamento nei marmi e nei fregi inclusi negli edifici e nelle chiese del centro storico.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpqb_aevaJ_z3arfFQsEMtWAdEnP7gGAtl-6vdu-oRn-Ra2tThGLAbcpIn14GjC39SEui4AI7geOIe0rkurTD1ewTzP6hTVtdt7hdbmOXC_nRciFf-KLZDvV_zihYtFf6GRXVKe5xki7iYrDG9Wu9yp7emGPIysnMl7jqqPWW2J9e-Z9b416iTebCpWcgj8K04RAqWRv9klme3p0BpTVn2HEZpU-6Jh_qhUgjuI7VCw1fSnQ9wOtDvBQzY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrX_pfhjgf_yhMeM0Ja6DRgazrcn-mHICHJbYOw9Zuiabl8PTBbLd1psvpIMZ3YR4sMrMoSLsTItiH2qiYRFQZ6oCpEkZQ9N8ybDk1sLW-R3ripCCeWN5BShEtubsBrqk0UJ4bC44iVIO86q5gWPV0xOQdSj2K0HM5MohMnKFNSi_A0lmLMTx9x0yXWBF29JZ3ZRHdkibXy-tz9yLnmkhYbWNKAeIbdC1mc0mGlak3mTWKJY9DtYSaSaIc?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1591-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrXI5-A3a85AyXr-me8BYipp64q3mw5OrYepGgHOKs1YBKqpRlzO1jcRZpP_SvnoeQp-a1hDFS1mx9xwYr6O-qxGHWTpj7ZszhrsSdoocUIiVO220lFnz-8GslHawMxGgKNfZeIXHBqHEtWN3ophsyyJ0WfNVcZqbIikJa91kP1XFH6CByeDe03yYuFduirX9O97T3Ryh-AseCwWBMtNNgiqW5oaX-aafDNt79OihnakOMk8x3iRZwJWKQ?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkpqb_aevaJ_z3arfFQsEMtWAdEnP7gGAtl-6vdu-oRn-Ra2tThGLAbcpIn14GjC39SEui4AI7geOIe0rkurTD1ewTzP6hTVtdt7hdbmOXC_nRciFf-KLZDvV_zihYtFf6GRXVKe5xki7iYrDG9Wu9yp7emGPIysnMl7jqqPWW2J9e-Z9b416iTebCpWcgj8K04RAqWRv9klme3p0BpTVn2HEZpU-6Jh_qhUgjuI7VCw1fSnQ9wOtDvBQzY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkrX_pfhjgf_yhMeM0Ja6DRgazrcn-mHICHJbYOw9Zuiabl8PTBbLd1psvpIMZ3YR4sMrMoSLsTItiH2qiYRFQZ6oCpEkZQ9N8ybDk1sLW-R3ripCCeWN5BShEtubsBrqk0UJ4bC44iVIO86q5gWPV0xOQdSj2K0HM5MohMnKFNSi_A0lmLMTx9x0yXWBF29JZ3ZRHdkibXy-tz9yLnmkhYbWNKAeIbdC1mc0mGlak3mTWKJY9DtYSaSaIc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.0400563,41.4855548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Link utili</name>
+      <Placemark>
+        <name>Link utili</name>
+        <description><![CDATA[Parco dell'olivo di Venafro: https://www.parcodellolivodivenafro.eu/<br><br>Comune di Venafro: https://www.comune.venafro.is.it/<br>                                                                                                         Molise - Beni culturali https://www.musei.molise.beniculturali.it/musei?mid=214&nome=museo-nazionale-di-castello-pandone                                                                         <br>IMPORTANTE: la localizzazione dell'icona in mappa è puramente indicativa.]]></description>
+        <styleUrl>#icon-1608-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            14.0198657,41.4735354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Percorsi storici - naturalistici</name>
+      <Placemark>
+        <name>Partenza sentiero didattico</name>
+        <description>Sentiero didattico lunghezza 1200 m con partenza dalla Cattedrale</description>
+        <styleUrl>#icon-1502-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            14.0375478,41.4838514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Partenza sentiero naturalistico</name>
+        <description>Sentiero storico naturalistico pedemontano circa 800 m</description>
+        <styleUrl>#icon-1502-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            14.0439959,41.4876048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Partenza sentiero Torricella</name>
+        <description>Sentiero circa 2300 m</description>
+        <styleUrl>#icon-1502-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            14.0426284,41.4866363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Partenza sentiero Conca Casale</name>
+        <description>Da Venafro a Conca Casale 4300 m</description>
+        <styleUrl>#icon-1502-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            14.0422476,41.4864153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mulattiera</name>
+        <description><![CDATA[Dal Centro storico si diparte il percorso dell’antica Mulattiera Comunale, variante per raggiungere Conca Casale rispetto alle mulattiere che si dipartono dalla Cattedrale. <br>La mulattiera, nel primo tratto, costeggia resti di mura romane, anche poligonali (poste proprio all’ingresso) erisale gli antichi terrazzamenti tra ulivi centenari. Lo scenario è dominato da Monte Santa Croce, con i suoi boschi primevi e gli affioramenti di roccia calcarea, frequentati da diverse specie di rapaci. Sovrastante il percorso è la "Torricella", avamposto di guardia a picco su un imponente dente di roccia. Il percorso si riconnette all’altra mulattiera che dalla cattedrale raggiunge Conca Casale.]]></description>
+        <styleUrl>#icon-1502-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.0313491,41.4859728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sentieri</name>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 280]]></description>
+        <styleUrl>#line-1A237E-1388</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>280</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.029175,41.472778,280
+            14.02892,41.472862,280
+            14.02847,41.472977,280
+            14.02818,41.473053,280
+            14.027782,41.473215,280
+            14.027474,41.473285,280
+            14.027263,41.473343,280
+            14.026946,41.473399,280
+            14.026611,41.473463,280
+            14.026241,41.473558,280
+            14.026021,41.473616,280
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 288]]></description>
+        <styleUrl>#line-1A237E-1969</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>288</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.019567,41.475874,288
+            14.019823,41.475961,288
+            14.020161,41.476241,288
+            14.020441,41.476446,288
+            14.020597,41.476547,288
+            14.020694,41.476676,288
+            14.020764,41.47681,288
+            14.020736,41.476924,288
+            14.020741,41.477018,288
+            14.020805,41.477137,288
+            14.02102,41.477313,288
+            14.02121,41.477398,288
+            14.021451,41.477564,288
+            14.021601,41.477669,288
+            14.021718,41.477754,288
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 472]]></description>
+        <styleUrl>#line-1A237E-2744</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>472</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.032936,41.482866,472
+            14.032738,41.482683,472
+            14.032636,41.482604,472
+            14.032478,41.482429,472
+            14.032399,41.482344,472
+            14.032131,41.482137,472
+            14.031996,41.482063,472
+            14.031766,41.481893,472
+            14.031616,41.481759,472
+            14.031267,41.481582,472
+            14.031069,41.48143,472
+            14.030904,41.481254,472
+            14.030802,41.481109,472
+            14.03078,41.48094,472
+            14.030887,41.480725,472
+            14.030929,41.480617,472
+            14.030955,41.480472,472
+            14.031052,41.480389,472
+            14.031399,41.480193,472
+            14.031754,41.48001,472
+            14.031932,41.479891,472
+            14.032109,41.479844,472
+            14.032182,41.479767,472
+            14.032198,41.479761,472
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 863]]></description>
+        <styleUrl>#line-1A237E-1775</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>863</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.024526,41.469361,863
+            14.024899,41.469381,863
+            14.025198,41.469343,863
+            14.025445,41.469225,863
+            14.025895,41.469052,863
+            14.026336,41.468823,863
+            14.026497,41.468728,863
+            14.026677,41.468842,863
+            14.027068,41.469086,863
+            14.027659,41.46954,863
+            14.028102,41.469873,863
+            14.02867,41.470343,863
+            14.029598,41.471049,863
+            14.030294,41.471616,863
+            14.030768,41.472045,863
+            14.030761,41.472378,863
+            14.030795,41.472635,863
+            14.030678,41.472876,863
+            14.030466,41.473103,863
+            14.030199,41.473186,863
+            14.030009,41.473213,863
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>storico</name>
+        <description><![CDATA[descrizione: <br>Name: storico<br>lunghezza: 702]]></description>
+        <styleUrl>#line-FFEA00-2163</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>storico</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>702</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.02169,41.474097,702
+            14.021653,41.473712,702
+            14.021544,41.473358,702
+            14.02135,41.473057,702
+            14.020899,41.472775,702
+            14.020039,41.472297,702
+            14.01973,41.472038,702
+            14.019462,41.471843,702
+            14.019319,41.471906,702
+            14.019104,41.472011,702
+            14.01889,41.472073,702
+            14.018561,41.47221,702
+            14.018174,41.472399,702
+            14.01783,41.472556,702
+            14.017401,41.472724,702
+            14.017229,41.472861,702
+            14.016957,41.472955,702
+            14.01637,41.473218,702
+            14.016125,41.473408,702
+            14.01601,41.473514,702
+            14.016021,41.473707,702
+            14.01602,41.47376,702
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 374]]></description>
+        <styleUrl>#line-1A237E-2163</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>374</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.018156,41.473495,374
+            14.018006,41.473534,374
+            14.017951,41.473606,374
+            14.017971,41.473751,374
+            14.018087,41.473808,374
+            14.018172,41.473865,374
+            14.018266,41.473946,374
+            14.018201,41.474049,374
+            14.018019,41.474048,374
+            14.017869,41.474127,374
+            14.017868,41.474183,374
+            14.018027,41.47424,374
+            14.018164,41.474338,374
+            14.018483,41.474453,374
+            14.018799,41.474664,374
+            14.018926,41.474777,374
+            14.019083,41.474955,374
+            14.019304,41.475142,374
+            14.019335,41.475246,374
+            14.019354,41.475359,374
+            14.019448,41.475536,374
+            14.019434,41.47572,374
+            14.019476,41.475785,374
+            14.019474,41.475929,374
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>misto</name>
+        <description><![CDATA[descrizione: <br>Name: misto<br>lunghezza: 2739]]></description>
+        <styleUrl>#line-F48FB1-1969</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>misto</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>2739</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.003885,41.472779,2739
+            14.004566,41.472849,2739
+            14.004922,41.47282,2739
+            14.005927,41.473139,2739
+            14.006181,41.47328,2739
+            14.00669,41.473467,2739
+            14.007087,41.473545,2739
+            14.007781,41.473733,2739
+            14.008192,41.4738,2739
+            14.008703,41.473901,2739
+            14.009143,41.473926,2739
+            14.009513,41.473951,2739
+            14.010011,41.473912,2739
+            14.010452,41.473905,2739
+            14.010637,41.473907,2739
+            14.011205,41.473965,2739
+            14.011461,41.473978,2739
+            14.011673,41.474066,2739
+            14.012645,41.47463,2739
+            14.01301,41.474933,2739
+            14.013291,41.475181,2739
+            14.013857,41.475389,2739
+            14.015592,41.476356,2739
+            14.016029,41.476584,2739
+            14.016437,41.476855,2739
+            14.017087,41.47715,2739
+            14.017538,41.477453,2739
+            14.018558,41.477665,2739
+            14.019352,41.477854,2739
+            14.020272,41.47815,2739
+            14.020682,41.478282,2739
+            14.021728,41.478729,2739
+            14.022659,41.479229,2739
+            14.023338,41.479524,2739
+            14.023704,41.47972,2739
+            14.02417,41.480002,2739
+            14.024607,41.480219,2739
+            14.025656,41.480496,2739
+            14.026122,41.480671,2739
+            14.02667,41.481125,2739
+            14.026783,41.481222,2739
+            14.026814,41.48196,2739
+            14.026667,41.482322,2739
+            14.026492,41.482567,2739
+            14.026386,41.482994,2739
+            14.026536,41.483434,2739
+            14.02663,41.483841,2739
+            14.027076,41.484401,2739
+            14.027466,41.484992,2739
+            14.027647,41.485261,2739
+            14.027914,41.485456,2739
+            14.028209,41.485737,2739
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>storico</name>
+        <description><![CDATA[descrizione: <br>Name: storico<br>lunghezza: 194]]></description>
+        <styleUrl>#line-FFEA00-2163</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>storico</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>194</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.031279,41.484078,194
+            14.031104,41.483993,194
+            14.031049,41.483944,194
+            14.031114,41.48389,194
+            14.030932,41.48372,194
+            14.030678,41.483574,194
+            14.030599,41.483519,194
+            14.030454,41.483584,194
+            14.030414,41.48362,194
+            14.030247,41.483528,194
+            14.030152,41.483479,194
+            14.030087,41.483503,194
+            14.029965,41.483652,194
+            14.029941,41.483688,194
+            14.029907,41.483802,194
+            14.029961,41.483905,194
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>strada</name>
+        <description><![CDATA[descrizione: <br>Name: strada<br>lunghezza: 191]]></description>
+        <styleUrl>#line-FFEA00-1581</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>strada</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>191</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.031777,41.485787,191
+            14.031769,41.485627,191
+            14.031878,41.485467,191
+            14.031933,41.485348,191
+            14.031831,41.485034,191
+            14.031749,41.484817,191
+            14.031655,41.484647,191
+            14.031529,41.484534,191
+            14.031307,41.484412,191
+            14.031148,41.484314,191
+            14.031148,41.484298,191
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 458]]></description>
+        <styleUrl>#line-1A237E-2744</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>458</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.036828,41.481184,458
+            14.036304,41.481073,458
+            14.036021,41.480964,458
+            14.035879,41.480909,458
+            14.03548,41.480959,458
+            14.035237,41.481032,458
+            14.035079,41.481148,458
+            14.03465,41.481348,458
+            14.034377,41.481495,458
+            14.034213,41.481568,458
+            14.034098,41.481662,458
+            14.033971,41.481737,458
+            14.033904,41.481813,458
+            14.033932,41.481913,458
+            14.034015,41.482031,458
+            14.034067,41.482122,458
+            14.034036,41.482234,458
+            14.033907,41.482377,458
+            14.03378,41.482458,458
+            14.033272,41.482738,458
+            14.033054,41.482839,458
+            14.03297,41.482902,458
+            14.032915,41.48296,458
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>storico</name>
+        <description><![CDATA[descrizione: <br>Name: storico<br>lunghezza: 881]]></description>
+        <styleUrl>#line-673AB7-1969</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>storico</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>881</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.029355,41.486492,881
+            14.029911,41.486774,881
+            14.03041,41.487067,881
+            14.030736,41.48722,881
+            14.031509,41.487467,881
+            14.032869,41.488026,881
+            14.03329,41.48818,881
+            14.034031,41.488409,881
+            14.034415,41.488442,881
+            14.034935,41.488428,881
+            14.035472,41.488361,881
+            14.035751,41.488423,881
+            14.036078,41.488528,881
+            14.03754,41.489184,881
+            14.038493,41.489655,881
+            14.038708,41.489771,881
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>misto</name>
+        <description><![CDATA[descrizione: <br>Name: misto<br>lunghezza: 2655]]></description>
+        <styleUrl>#line-1A237E-2550</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>misto</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>2655</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.026161,41.487376,2655
+            14.025677,41.486758,2655
+            14.024888,41.486281,2655
+            14.024531,41.486036,2655
+            14.02425,41.485848,2655
+            14.024539,41.485551,2655
+            14.02481,41.485168,2655
+            14.024927,41.484969,2655
+            14.024798,41.484712,2655
+            14.024615,41.484268,2655
+            14.024374,41.483881,2655
+            14.024209,41.483537,2655
+            14.02432,41.482454,2655
+            14.024246,41.482311,2655
+            14.023905,41.482308,2655
+            14.023407,41.482575,2655
+            14.023028,41.482572,2655
+            14.022818,41.482698,2655
+            14.021815,41.483831,2655
+            14.021392,41.484198,2655
+            14.020746,41.484249,2655
+            14.02014,41.484216,2655
+            14.019418,41.484295,2655
+            14.01862,41.484402,2655
+            14.018066,41.484626,2655
+            14.017738,41.484994,2655
+            14.017351,41.485561,2655
+            14.017271,41.485817,2655
+            14.017849,41.486464,2655
+            14.018299,41.486838,2655
+            14.018635,41.487183,2655
+            14.019386,41.487689,2655
+            14.01955,41.488147,2655
+            14.019584,41.488389,2655
+            14.019127,41.4885,2655
+            14.018365,41.488735,2655
+            14.017869,41.488917,2655
+            14.017126,41.48911,2655
+            14.016077,41.489515,2655
+            14.015297,41.489651,2655
+            14.014896,41.489832,2655
+            14.014664,41.490173,2655
+            14.01462,41.490543,2655
+            14.014669,41.491057,2655
+            14.014666,41.491228,2655
+            14.01425,41.491182,2655
+            14.01391,41.491108,2655
+            14.013376,41.491303,2655
+            14.012276,41.49125,2655
+            14.011539,41.491073,2655
+            14.011408,41.490986,2655
+            14.010959,41.490599,2655
+            14.010504,41.490519,2655
+            14.009974,41.490323,2655
+            14.00919,41.490202,2655
+            14.008809,41.490256,2655
+            14.008553,41.490406,2655
+            14.008266,41.4909,2655
+            14.008111,41.491127,2655
+            14.00798,41.491355,2655
+            14.007998,41.49187,2655
+            14.00812,41.492176,2655
+            14.007962,41.492594,2655
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 577]]></description>
+        <styleUrl>#line-1A237E-2356</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>577</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.036168,41.48395,577
+            14.035622,41.484352,577
+            14.03539,41.484629,577
+            14.035189,41.484787,577
+            14.034761,41.48488,577
+            14.03446,41.484984,577
+            14.034274,41.485079,577
+            14.034159,41.485164,577
+            14.033232,41.485338,577
+            14.032847,41.485431,577
+            14.032591,41.485396,577
+            14.032334,41.485437,577
+            14.031947,41.485658,577
+            14.031888,41.485786,577
+            14.031589,41.485816,577
+            14.031174,41.485973,577
+            14.030831,41.486088,577
+            14.030616,41.486182,577
+            14.030344,41.486308,577
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>storico</name>
+        <description><![CDATA[descrizione: <br>Name: storico<br>lunghezza: 488]]></description>
+        <styleUrl>#line-FFEA00-2356</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>storico</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>488</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.036209,41.483977,488
+            14.036327,41.484135,488
+            14.036501,41.484256,488
+            14.036763,41.484367,488
+            14.036937,41.484555,488
+            14.037126,41.484743,488
+            14.037276,41.484852,488
+            14.037434,41.485028,488
+            14.037686,41.485277,488
+            14.037923,41.485466,488
+            14.038384,41.485716,488
+            14.038566,41.485814,488
+            14.039202,41.486102,488
+            14.039497,41.486171,488
+            14.03971,41.486347,488
+            14.040106,41.486675,488
+            14.040296,41.486809,488
+            14.040342,41.486942,488
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>storico</name>
+        <description><![CDATA[descrizione: <br>Name: storico<br>lunghezza: 636]]></description>
+        <styleUrl>#line-FFEA00-1969</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>storico</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>636</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.022984,41.474899,636
+            14.021358,41.475535,636
+            14.021269,41.475589,636
+            14.021231,41.475492,636
+            14.020803,41.475717,636
+            14.020361,41.475352,636
+            14.020288,41.475388,636
+            14.020118,41.475561,636
+            14.019996,41.47571,636
+            14.019818,41.475793,636
+            14.019553,41.475893,636
+            14.019432,41.475922,636
+            14.019159,41.475992,636
+            14.018767,41.476025,636
+            14.01859,41.476053,636
+            14.01831,41.476069,636
+            14.018236,41.476189,636
+            14.017961,41.476409,636
+            14.0178,41.47648,636
+            14.017542,41.476592,636
+            14.017292,41.476752,636
+            14.016978,41.476846,636
+            14.016777,41.476952,636
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 1154]]></description>
+        <styleUrl>#line-1A237E-2356</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>1154</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.042453,41.48665,1154
+            14.041767,41.486901,1154
+            14.039348,41.486956,1154
+            14.036403,41.486931,1154
+            14.034105,41.486559,1154
+            14.032453,41.486642,1154
+            14.031771,41.486647,1154
+            14.031088,41.486619,1154
+            14.030481,41.486293,1154
+            14.030211,41.486312,1154
+            14.029454,41.486488,1154
+            14.028969,41.486623,1154
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sentiero didattico</name>
+        <description><![CDATA[descrizione: <br>Name: strada<br>lunghezza: 1298]]></description>
+        <styleUrl>#line-87CEAC-3713</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>strada</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>1298</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.037412,41.48396,1298
+            14.03673,41.483966,1298
+            14.036209,41.483977,1298
+            14.036007,41.484069,1298
+            14.035647,41.483864,1298
+            14.035016,41.483579,1298
+            14.034707,41.483518,1298
+            14.034289,41.483514,1298
+            14.033827,41.483336,1298
+            14.033535,41.483135,1298
+            14.033351,41.482994,1298
+            14.032936,41.482866,1298
+            14.032915,41.48296,1298
+            14.032606,41.483104,1298
+            14.032404,41.483126,1298
+            14.032186,41.483205,1298
+            14.032138,41.483321,1298
+            14.031965,41.483483,1298
+            14.031872,41.483494,1298
+            14.03167,41.483539,1298
+            14.031713,41.483749,1298
+            14.031541,41.483864,1298
+            14.031279,41.484078,1298
+            14.031148,41.484298,1298
+            14.030976,41.484349,1298
+            14.030885,41.484185,1298
+            14.030686,41.484043,1298
+            14.030378,41.483924,1298
+            14.029961,41.483905,1298
+            14.029618,41.483941,1298
+            14.029508,41.484033,1298
+            14.029368,41.484114,1298
+            14.028948,41.48418,1298
+            14.028806,41.484331,1298
+            14.028804,41.484517,1298
+            14.029079,41.484741,1298
+            14.029186,41.48487,1298
+            14.029153,41.484963,1298
+            14.028828,41.484937,1298
+            14.028629,41.48483,1298
+            14.028319,41.484769,1298
+            14.028196,41.484733,1298
+            14.028103,41.484756,1298
+            14.028143,41.485141,1298
+            14.028155,41.485385,1298
+            14.028209,41.485737,1298
+            14.028257,41.485864,1298
+            14.028454,41.486169,1298
+            14.028838,41.486393,1298
+            14.02898,41.486601,1298
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>strada</name>
+        <description><![CDATA[descrizione: <br>Name: strada<br>lunghezza: 351]]></description>
+        <styleUrl>#line-1A237E-1775</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>strada</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>351</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.02898,41.486601,351
+            14.029374,41.486889,351
+            14.029467,41.487019,351
+            14.029162,41.487116,351
+            14.028537,41.487053,351
+            14.028041,41.48722,351
+            14.027376,41.4873,351
+            14.026996,41.487383,351
+            14.026539,41.487493,351
+            14.026161,41.487376,351
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>strada</name>
+        <description><![CDATA[descrizione: <br>Name: strada<br>lunghezza: 2930]]></description>
+        <styleUrl>#line-F48FB1-1969</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>strada</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>2930</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.038068,41.481327,2930
+            14.037422,41.481019,2930
+            14.036398,41.480605,2930
+            14.035705,41.480313,2930
+            14.03485,41.480294,2930
+            14.033757,41.480261,2930
+            14.033361,41.480258,2930
+            14.032636,41.479942,2930
+            14.032198,41.479761,2930
+            14.03123,41.479704,2930
+            14.030471,41.479566,2930
+            14.029364,41.47945,2930
+            14.028828,41.479267,2930
+            14.028247,41.478928,2930
+            14.02779,41.478745,2930
+            14.027364,41.478587,2930
+            14.027191,41.478514,2930
+            14.026721,41.4782,2930
+            14.02625,41.47791,2930
+            14.025888,41.477705,2930
+            14.025515,41.477201,2930
+            14.025109,41.476804,2930
+            14.024842,41.476683,2930
+            14.024214,41.47626,2930
+            14.023871,41.475948,2930
+            14.023496,41.475575,2930
+            14.023074,41.475154,2930
+            14.022984,41.474899,2930
+            14.022751,41.47452,2930
+            14.022534,41.47422,2930
+            14.022378,41.474076,2930
+            14.021998,41.474025,2930
+            14.02169,41.474097,2930
+            14.021253,41.474067,2930
+            14.020985,41.473945,2930
+            14.020561,41.473739,2930
+            14.01993,41.473519,2930
+            14.018996,41.473475,2930
+            14.018156,41.473495,2930
+            14.017696,41.473524,2930
+            14.016823,41.473659,2930
+            14.016315,41.473703,2930
+            14.01602,41.47376,2930
+            14.015413,41.473659,2930
+            14.01464,41.47339,2930
+            14.013661,41.473215,2930
+            14.013093,41.473032,2930
+            14.012321,41.472775,2930
+            14.011515,41.472625,2930
+            14.010899,41.472488,2930
+            14.010173,41.472292,2930
+            14.009225,41.472117,2930
+            14.008328,41.471739,2930
+            14.007919,41.471557,2930
+            14.00766,41.471468,2930
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 0]]></description>
+        <styleUrl>#line-FFFFFF-1000</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.042453,41.48665,0
+            14.04274,41.486725,0
+            14.042902,41.486774,0
+            14.043095,41.486841,0
+            14.043379,41.486965,0
+            14.043591,41.487068,0
+            14.043788,41.487127,0
+            14.043937,41.487244,0
+            14.044051,41.487313,0
+            14.044094,41.487329,0
+            14.044255,41.487211,0
+            14.044507,41.48729,0
+            14.044748,41.487367,0
+            14.044917,41.487449,0
+            14.045004,41.487461,0
+            14.045307,41.48755,0
+            14.045452,41.487662,0
+            14.045577,41.487827,0
+            14.045736,41.488039,0
+            14.045825,41.488168,0
+            14.046096,41.48837,0
+            14.046389,41.488635,0
+            14.046608,41.488854,0
+            14.047054,41.489242,0
+            14.047336,41.489444,0
+            14.047544,41.489553,0
+            14.047932,41.489863,0
+            14.048286,41.490039,0
+            14.048552,41.49024,0
+            14.049012,41.490494,0
+            14.049378,41.490688,0
+            14.049858,41.490898,0
+            14.05037,41.491087,0
+            14.05069,41.491164,0
+            14.051364,41.491414,0
+            14.051549,41.491501,0
+            14.052099,41.492096,0
+            14.052335,41.492458,0
+            14.052597,41.492734,0
+            14.052737,41.492896,0
+            14.05289,41.49302,0
+            14.053133,41.493186,0
+            14.053436,41.493367,0
+            14.053699,41.493482,0
+            14.054219,41.493743,0
+            14.054509,41.493918,0
+            14.054877,41.49421,0
+            14.055285,41.494517,0
+            14.055477,41.494653,0
+            14.055668,41.494866,0
+            14.055982,41.49533,0
+            14.056155,41.495692,0
+            14.056336,41.496087,0
+            14.056478,41.496422,0
+            14.056633,41.496896,0
+            14.056781,41.497065,0
+            14.057032,41.497275,0
+            14.057221,41.497384,0
+            14.056533,41.497813,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>paesaggio</name>
+        <description><![CDATA[descrizione: <br>Name: paesaggio<br>lunghezza: 0]]></description>
+        <styleUrl>#line-1A237E-1969</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value>paesaggio</value>
+          </Data>
+          <Data name="lunghezza">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            14.044163,41.48653,0
+            14.043948,41.486588,0
+            14.043893,41.486593,0
+            14.043775,41.486545,0
+            14.043578,41.48646,0
+            14.043334,41.486344,0
+            14.043208,41.486302,0
+            14.043055,41.486449,0
+            14.042998,41.486532,0
+            14.042936,41.486478,0
+            14.042871,41.486567,0
+            14.042806,41.486674,0
+            14.04274,41.486725,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
