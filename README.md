@@ -57,7 +57,7 @@ The R scripts use a certain number of R packages to run. Please run the followin
 ```{r}
 
 # install_packages.R
-packages_to_install <- c("tidyverse", "here", "sf", "readxl", "viridis", "knitr", "networkD3",  "edc", "rnaturalearth",
+packages_to_install <- c("tidyverse", "here", "sf", "readxl", "viridis", "knitr", "networkD3",  "rnaturalearth",
 "ggspatial")
 
 
@@ -87,11 +87,7 @@ for (package in packages_to_install) {
   
 ## Running the analysis
 
-The R scripts must be run in this order:
-
-1. `script_results.R` computes the main results by sourcing functions from `depreciation_functions_24.R`
-2. `script_plots.R` generates the plots relying on the results computed by `script_results.R`
-3. (Optional): The `plot_generator.qmd` can be rendered to obtain plots of the same size/resolution used in the paper
-
-Alternatively, it is possible to run the `run_all.R` file which runs all the scripts in the correct order.
-
+`script_plots.R` sources from `script_results.R`, which in turn sources from `depreciation_functions_24.R`: therefore, to
+run the whole analysis it is sufficent to run `script_plots.R`. If the users wants to generate a document (.docx, .html,
+.pdf, etc.) containing all the plots with the same size and resolution used in the manuscript, they can render the
+`plot_generator.qmd` file.

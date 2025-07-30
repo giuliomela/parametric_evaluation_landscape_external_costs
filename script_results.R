@@ -10,7 +10,6 @@ pacman::p_load(
   knitr,
   networkD3,
   sf,
-  edc,
   future,
   future.apply
 )
@@ -84,7 +83,7 @@ shape.data_paes <- sf::st_read(here(
 
 # Loading ISPRA 'Nature' map
 
-shape.data_cnat <- sf::st_read(here("script", 
+shape.data_cnat <- sf::st_read(here("carta_natura", 
                                     "CartaNaturalisticoCulturale.shp"),
                                quiet = T) |> 
   mutate(
