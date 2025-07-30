@@ -46,7 +46,7 @@ welfare economics.
     
 4. If git clone does not work, try a more explicit command:
 
-    ´git lfs clone https://github.com/giuliomela/parametric_evaluation_landscape_external_costs.git´
+     `git lfs clone https://github.com/giuliomela/parametric_evaluation_landscape_external_costs.git`
     
 Once the repository has been cloned, large files will be donwloaded locally and the R script can be run.
 
@@ -93,5 +93,5 @@ The R scripts must be run in this order:
 2. `script_plots.R` generates the plots relying on the results computed by `script_results.R`
 3. (Optional): The `plot_generator.qmd` can be rendered to obtain plots of the same size/resolution used in the paper
 
-Alternatively, it is possible to run 
+Alternatively, it is possible to run the `run_all.R` file which runs all the scripts in the correct order.
 
