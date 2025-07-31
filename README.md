@@ -1,6 +1,18 @@
 # A parametric evaluation of the landscape external costs of wind and solar power plants in Italy
 R scripts used to prepare the manuscript "A parametric evaluation of the landscape external costs of wind and solar power plants in Italy"
 
+## Authors
+
+- Andrea Molocchi[^1]
+- Tiziano Tempesta[^2] 
+- Daniel Vecchiato[^2]
+- Giulio Mela[^1]
+- Giulia Ronchetti[^1]
+- Pierpaolo Girardi[^1]
+
+[^1]: Ricerca sul Sistema Energetico. Milan, Italy
+[^2]: Università degli Studi di Padova, Dipartimento Territorio e Sistemi Agro-forestali. Padova, Italy
+
 ## Abstract
 
 This article develops and applies a methodology for the parametric evaluation of the landscape external costs
@@ -21,6 +33,13 @@ than that of the wind farm, both in absolute terms (106,000 euro/year vs. 232,00
 energy production (1.11 euro/MWh vs. 1.34 euro /MWh). In the context of energy planning and policy, the proposed 
 methodology can be used to identify eligible areas for wind and solar power plants with an approach consistent with 
 welfare economics.
+
+## What this repository is for
+
+The authors created this repository to allow fellow researchers to reproduce the results of their work. In particular,
+files and R scripts contained in this folder were used, by the authors, to calculate the landscape value depreciation
+triggered by the construction of PV and wind plants in the areas from which they are visible and to quantify the consequential
+annual loss of landscape service value (step 4 and 5 of the methodology outlined in figure 1 of the manuscript).
 
 ## Getting Started
 
