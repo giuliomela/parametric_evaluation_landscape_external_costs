@@ -107,6 +107,6 @@ for (package in packages_to_install) {
 ## Running the analysis
 
 `script_plots.R` sources from `script_results.R`, which in turn sources from `depreciation_functions_24.R`: therefore, to
-run the whole analysis it is sufficent to run `script_plots.R`. If the users wants to generate a document (.docx, .html,
+run the whole analysis it is sufficient to run `script_plots.R`. If the users wants to generate a document (.docx, .html,
 .pdf, etc.) containing all the plots with the same size and resolution used in the manuscript, they can render the
 `plot_generator.qmd` file.
